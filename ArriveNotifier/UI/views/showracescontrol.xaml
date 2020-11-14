@@ -1,0 +1,60 @@
+<views1:UserControlView x:Class="ArriveNotifier.Views.ShowRacesControl"
+                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                        xmlns:controls="clr-namespace:ArriveNotifier.Views"
+                        xmlns:glob="clr-namespace:System.Globalization;assembly=mscorlib"
+                        xmlns:views1="clr-namespace:CoreLib.UI.Views"
+                        xmlns:converters="clr-namespace:CoreLib.UI.Converters"
+                        xmlns:dummydata="clr-namespace:ArriveNotifier.Core.ArriveNotifierService"
+                        Width="Auto" Height="Auto">
+  <FrameworkElement.Resources>
+    <converters:ImperialUnitsConverter x:Key="ImperialUnitsConverter"/>
+    <converters:SpeedConverter x:Key="SpeedConverter"/>
+  </FrameworkElement.Resources>
+  <StackPanel Background="LemonChiffon">
+    <TextBlock Text="Uw Actieve Vluchten:" FontSize="24" Foreground="BlueViolet" HorizontalAlignment="Center"/>
+    <TextBlock Text="Er zijn nog geen vluchten gestart waar u aan mee doet" FontSize="24" Foreground="OrangeRed"
+               HorizontalAlignment="Center"
+               Visibility="{Binding NoRacesYet, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+    <ItemsControl ItemsSource="{Binding AllData.ActiveRaces}">
+      <ItemsControl.ItemTemplate>
+        <DataTemplate>
+          <Grid>
+            <Panel.Background>
+              <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#20EAB169" Offset="0"/>
+                <GradientStop Color="#4020B007" Offset="1"/>
+              </LinearGradientBrush>
+            </Panel.Background>
+            <Border BorderBrush="RoyalBlue" BorderThickness="0">
+              <StackPanel Margin="4">
+                <StackPanel Orientation="Horizontal" TextBlock.FontSize="24" TextBlock.Foreground="DarkRed">
+                  <TextBlock Text="Vlucht: "/>
+                  <TextBlock Margin="0,0,50,0" Text="{Binding RaceName}"/>
+                  <TextBlock Text="Gelost om: "/>
+                  <TextBlock Text="{Binding ReleaseTime, StringFormat=T, ConverterCulture={x:Static glob:CultureInfo.InvariantCulture}}"/>
+                  <TextBlock Text=" Aantal aangemeld: " FontSize="14" VerticalAlignment="Center"/>
+                  <TextBlock FontSize="14" VerticalAlignment="Center" Text="{Binding PigeonsArrivedCount}"/>
+                  <TextBlock Text=" aantal van u: " FontSize="14" VerticalAlignment="Center"/>
+                  <TextBlock FontSize="14" VerticalAlignment="Center" Text="{Binding MyPigeonsArrivedCount}"/>
+                </StackPanel>
+                <controls:LevelArriveInfoControl LevelName="Nationaal" DataContext="{Binding ArrivalDataNational}"/>
+                <controls:LevelArriveInfoControl LevelName="Club" DataContext="{Binding ArrivalDataClub}"/>
+                <StackPanel Orientation="Horizontal" Margin="4" TextBlock.FontSize="24">
+                  <TextBlock Text="Uw Afstand: " ToolTip="Afstand voor uw coordinaten"/>
+                  <TextBlock Margin="0,0,50,0" ToolTip="Afstand voor uw coordinaten"
+                             Text="{Binding DistanceInMeter, Converter={StaticResource ImperialUnitsConverter}}"/>
+                  <TextBlock Text="Uw Snelheid: " ToolTip="Snelheid wanneer uw duif nu zou aankomen"/>
+                  <TextBlock ToolTip="Snelheid wanneer uw duif nu zou aankomen" FontWeight="Bold"
+                             Text="{Binding SpeedWhenArriveNow, Converter={StaticResource SpeedConverter}}"/>
+                </StackPanel>
+              </StackPanel>
+            </Border>
+          </Grid>
+        </DataTemplate>
+      </ItemsControl.ItemTemplate>
+    </ItemsControl>
+  </StackPanel>
+</views1:UserControlView>

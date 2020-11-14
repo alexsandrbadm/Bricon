@@ -1,0 +1,32 @@
+<UserControl x:Class="ArriveNotifier.Views.CategoryArriveInfoControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:glob="clr-namespace:System.Globalization;assembly=mscorlib"
+             xmlns:converters1="clr-namespace:CoreLib.UI.Converters"
+             xmlns:arriveNotifierService="clr-namespace:ArriveNotifier.Core.ArriveNotifierService"
+             x:Name="_this">
+  <FrameworkElement.Resources>
+    <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    <converters1:SpeedConverter x:Key="SpeedConverter"/>
+  </FrameworkElement.Resources>
+  <Grid Visibility="{Binding IsArrived, Converter={StaticResource BooleanToVisibilityConverter}}">
+    <StackPanel Orientation="Horizontal">
+      <TextBlock MinWidth="100" HorizontalAlignment="Right" TextAlignment="Right"
+                 Text="{Binding ElementName=_this, Path=CategoryName}"/>
+      <TextBlock Text=", eerste aanmelding: "/>
+      <TextBlock FontWeight="Bold" MinWidth="55" ToolTip="Tijdstip aankomst van de eerste aanmelding"
+                 Text="{Binding FirstArrivalTime, StringFormat=T, ConverterCulture={x:Static glob:CultureInfo.InvariantCulture}}"/>
+      <TextBlock Text=" - "/>
+      <TextBlock FontWeight="Bold" MinWidth="95" ToolTip="Snelheid eerste aanmelding"
+                 Text="{Binding Speed, Converter={StaticResource SpeedConverter}}"/>
+      <TextBlock Text=" - "/>
+      <TextBlock FontWeight="Bold" MinWidth="200" ToolTip="Liefhebber eerste aanmelding"
+                 Text="{Binding FirstFancierName}"/>
+      <TextBlock Text=" Geschatte aankomst: "/>
+      <TextBlock FontWeight="Bold" ToolTip="Geschatte aankomst voor uw duiven aan deze snelheid"
+                 Text="{Binding EstimatedArrivalTime, ConverterCulture={x:Static glob:CultureInfo.InvariantCulture}}"/>
+    </StackPanel>
+  </Grid>
+</UserControl>

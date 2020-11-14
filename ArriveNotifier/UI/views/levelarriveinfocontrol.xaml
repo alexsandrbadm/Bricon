@@ -1,0 +1,15 @@
+<UserControl x:Class="ArriveNotifier.Views.LevelArriveInfoControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:ArriveNotifier.Views"
+             xmlns:arriveNotifierService="clr-namespace:ArriveNotifier.Core.ArriveNotifierService"
+             x:Name="_this">
+  <StackPanel TextBlock.FontSize="14">
+    <TextBlock Foreground="DarkOrange" Text="{Binding ElementName=_this, Path=LevelName}"/>
+    <controls:CategoryArriveInfoControl CategoryName="Oude" DataContext="{Binding ArrivalDataCategoryOld}"/>
+    <controls:CategoryArriveInfoControl CategoryName="Jaarlingen" DataContext="{Binding ArrivalDataCategoryYearling}"/>
+    <controls:CategoryArriveInfoControl CategoryName="Jonge" DataContext="{Binding ArrivalDataCategoryYoung}"/>
+  </StackPanel>
+</UserControl>

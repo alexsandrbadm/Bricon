@@ -1,0 +1,70 @@
+<Window x:Class="BriconLib.PAS.ReadOut.ReadOutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:m="clr-namespace:MultiLanguageMarkup"
+        WindowStartupLocation="CenterScreen" Title="{Binding Title}">
+  <DockPanel>
+    <StackPanel DockPanel.Dock="Top">
+      <StackPanel Orientation="Horizontal">
+        <Label FontSize="22" Foreground="DarkBlue" MinWidth="200" Content="{Binding BasketContext.FlightCode}"/>
+        <Label FontSize="22" Foreground="DarkBlue" MinWidth="200" Content="{Binding BasketContext.FlightName}"/>
+        <Label FontSize="22" Foreground="DarkBlue" Content="{Binding BasketContext.Date}"/>
+      </StackPanel>
+      <StackPanel Orientation="Horizontal">
+        <Label FontSize="22" Foreground="DarkBlue" MinWidth="200" Content="{m:Lang _1416}"/>
+        <Label FontSize="22" Foreground="DarkBlue" MinWidth="200"
+               Content="{Binding BasketContext.ActiveFancierLicense}"/>
+        <Label FontSize="22" Foreground="DarkBlue" Content="{Binding BasketContext.ActiveFancierName}"/>
+      </StackPanel>
+      <DockPanel>
+        <Label FontSize="20" DockPanel.Dock="Right" Content="{Binding BasketContext.BasketCount}"/>
+        <Label x:Name="LabelFancier" FontSize="26" Content="{m:Lang _1437}"/>
+      </DockPanel>
+    </StackPanel>
+    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+      <GroupBox>
+        <StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label MinWidth="150" Content="{m:Lang _554}"/>
+            <Label Content="{Binding BasketContext.ClubCode}"/>
+            <Label Margin="4,0,0,0" Content="{Binding BasketContext.ClubName}"/>
+          </StackPanel>
+        </StackPanel>
+      </GroupBox>
+      <GroupBox>
+        <StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label MinWidth="150" Content="{m:Lang _1421}"/>
+            <Label Content="{Binding BasketContext.MasterSerial}"/>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label MinWidth="150" Content="{m:Lang _1438}"/>
+            <Label Content="{Binding TotalFanciers}"/>
+          </StackPanel>
+          <StackPanel Orientation="Horizontal">
+            <Label MinWidth="150" Content="{m:Lang _1439}"/>
+            <Label Content="{Binding TotalPigeons}"/>
+          </StackPanel>
+        </StackPanel>
+      </GroupBox>
+    </StackPanel>
+    <ListView ItemsSource="{Binding Pigeons}">
+      <ListView.View>
+        <GridView>
+          <GridViewColumn Width="70" Header="{m:Lang _239}" DisplayMemberBinding="{Binding Nbr}"/>
+          <GridViewColumn Width="120" Header="{m:Lang _591}" DisplayMemberBinding="{Binding Ring}"/>
+          <GridViewColumn Width="70" Header="{m:Lang _1424}" DisplayMemberBinding="{Binding Chip}"/>
+          <GridViewColumn Width="100" Header="{m:Lang _1425}" DisplayMemberBinding="{Binding Sex}"/>
+          <GridViewColumn Width="100" Header="{m:Lang _1426}" DisplayMemberBinding="{Binding Designated}"/>
+          <GridViewColumn Width="70" Header="{m:Lang _2}" DisplayMemberBinding="{Binding Ok}"/>
+        </GridView>
+      </ListView.View>
+    </ListView>
+    <DockPanel Dock="Right">
+      <CheckBox DockPanel.Dock="Top" IsChecked="{Binding ShowDebugMessage}" Content="{m:Lang _1427}"/>
+      <ListBox x:Name="ListBoxLog" Background="LightYellow" ItemsSource="{Binding Log}"/>
+    </DockPanel>
+  </DockPanel>
+</Window>

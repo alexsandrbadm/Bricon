@@ -1,0 +1,13 @@
+C:\Projects\BriconLib\obj\Debug\BriconLib.csprojAssemblyReference.cache
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\categoryarriveinfocontrol.g.cs
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\errorcontrol.g.cs
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\firsttimeusecontrol.g.cs
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\levelarriveinfocontrol.g.cs
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\mainwindow.g.cs
+C:\Projects\BriconLib\obj\Debug\arrivenotifier\ui\views\showracescontrol.g.cs
+C:\Projects\BriconLib\obj\Debug\pas\basket\basketwindow.g.cs
+C:\Projects\BriconLib\obj\Debug\pas\basket\startbasketwindow.g.cs
+C:\Projects\BriconLib\obj\Debug\pas\readout\readoutwindow.g.cs
+C:\Projects\BriconLib\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\BriconLib\obj\Debug\BriconLib_MarkupCompile.cache
+C:\Projects\BriconLib\obj\Debug\BriconLib_MarkupCompile.lref

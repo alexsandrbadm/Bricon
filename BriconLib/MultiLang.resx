@@ -1,0 +1,4480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_8" xml:space="preserve">
+    <value>Modules:</value>
+  </data>
+  <data name="_9" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="_2" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="_3" xml:space="preserve">
+    <value>{0} version {1}</value>
+  </data>
+  <data name="_1" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="_6" xml:space="preserve">
+    <value>Developed by ADGSoft GCV</value>
+  </data>
+  <data name="_7" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="_4" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="_5" xml:space="preserve">
+    <value>Bricon Website</value>
+  </data>
+  <data name="_93" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="_92" xml:space="preserve">
+    <value>Auto save every </value>
+  </data>
+  <data name="_91" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="_90" xml:space="preserve">
+    <value>Location:</value>
+  </data>
+  <data name="_97" xml:space="preserve">
+    <value>Check for newer version</value>
+  </data>
+  <data name="_96" xml:space="preserve">
+    <value>Install automatically</value>
+  </data>
+  <data name="_99" xml:space="preserve">
+    <value>Splash</value>
+  </data>
+  <data name="_98" xml:space="preserve">
+    <value>Download automatically</value>
+  </data>
+  <data name="_82" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="_83" xml:space="preserve">
+    <value>Automatic Updates</value>
+  </data>
+  <data name="_80" xml:space="preserve">
+    <value>Clubs</value>
+  </data>
+  <data name="_81" xml:space="preserve">
+    <value>Races</value>
+  </data>
+  <data name="_86" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="_87" xml:space="preserve">
+    <value>Serial Port</value>
+  </data>
+  <data name="_85" xml:space="preserve">
+    <value>Localisation</value>
+  </data>
+  <data name="_88" xml:space="preserve">
+    <value>COM Port:</value>
+  </data>
+  <data name="_89" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="_39" xml:space="preserve">
+    <value>Loft number:</value>
+  </data>
+  <data name="_38" xml:space="preserve">
+    <value>Coordinates:</value>
+  </data>
+  <data name="_31" xml:space="preserve">
+    <value>Please Connect ETS...</value>
+  </data>
+  <data name="_30" xml:space="preserve">
+    <value>Clubmaster Found: </value>
+  </data>
+  <data name="_33" xml:space="preserve">
+    <value>ETS Found: </value>
+  </data>
+  <data name="_32" xml:space="preserve">
+    <value>Version ETS</value>
+  </data>
+  <data name="_35" xml:space="preserve">
+    <value>Zipcode:</value>
+  </data>
+  <data name="_34" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="_37" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="_36" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="_28" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_29" xml:space="preserve">
+    <value>Version Master</value>
+  </data>
+  <data name="_20" xml:space="preserve">
+    <value>Move next</value>
+  </data>
+  <data name="_21" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="_22" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_23" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_24" xml:space="preserve">
+    <value>Read From Master</value>
+  </data>
+  <data name="_25" xml:space="preserve">
+    <value>Send To Master</value>
+  </data>
+  <data name="_26" xml:space="preserve">
+    <value>miniToolStrip</value>
+  </data>
+  <data name="_27" xml:space="preserve">
+    <value>Please Connect Master...</value>
+  </data>
+  <data name="_19" xml:space="preserve">
+    <value>of {0}</value>
+  </data>
+  <data name="_18" xml:space="preserve">
+    <value>Total number of items</value>
+  </data>
+  <data name="_13" xml:space="preserve">
+    <value>Move first</value>
+  </data>
+  <data name="_12" xml:space="preserve">
+    <value>Pincode</value>
+  </data>
+  <data name="_11" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_10" xml:space="preserve">
+    <value>ClubID</value>
+  </data>
+  <data name="_17" xml:space="preserve">
+    <value>Current position</value>
+  </data>
+  <data name="_16" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="_15" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_14" xml:space="preserve">
+    <value>Move previous</value>
+  </data>
+  <data name="_79" xml:space="preserve">
+    <value>Fancier - Detail</value>
+  </data>
+  <data name="_78" xml:space="preserve">
+    <value>Fanciers - List</value>
+  </data>
+  <data name="_74" xml:space="preserve">
+    <value>Coord Y</value>
+  </data>
+  <data name="_77" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="_76" xml:space="preserve">
+    <value>Bricon Club Editor</value>
+  </data>
+  <data name="_71" xml:space="preserve">
+    <value>Racepoint</value>
+  </data>
+  <data name="_70" xml:space="preserve">
+    <value>Selected to send to Device</value>
+  </data>
+  <data name="_73" xml:space="preserve">
+    <value>Coord X</value>
+  </data>
+  <data name="_72" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="_68" xml:space="preserve">
+    <value>KWY</value>
+  </data>
+  <data name="_69" xml:space="preserve">
+    <value>Sel</value>
+  </data>
+  <data name="_64" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="_65" xml:space="preserve">
+    <value>Bank Account</value>
+  </data>
+  <data name="_66" xml:space="preserve">
+    <value>Club1</value>
+  </data>
+  <data name="_67" xml:space="preserve">
+    <value>KWX</value>
+  </data>
+  <data name="_60" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="_61" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="_62" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="_63" xml:space="preserve">
+    <value>Fax/GSM</value>
+  </data>
+  <data name="_59" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="_58" xml:space="preserve">
+    <value>Sortering</value>
+  </data>
+  <data name="_57" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_56" xml:space="preserve">
+    <value>Loft Number</value>
+  </data>
+  <data name="_55" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="_54" xml:space="preserve">
+    <value>Read Ring</value>
+  </data>
+  <data name="_53" xml:space="preserve">
+    <value>EleB</value>
+  </data>
+  <data name="_52" xml:space="preserve">
+    <value>FedB</value>
+  </data>
+  <data name="_51" xml:space="preserve">
+    <value>bindingNavigator1</value>
+  </data>
+  <data name="_50" xml:space="preserve">
+    <value>Read from ETS</value>
+  </data>
+  <data name="_48" xml:space="preserve">
+    <value>Fax/GSM:</value>
+  </data>
+  <data name="_49" xml:space="preserve">
+    <value>Send To ETS</value>
+  </data>
+  <data name="_46" xml:space="preserve">
+    <value>Serialnr ETS:</value>
+  </data>
+  <data name="_47" xml:space="preserve">
+    <value>Last Access:</value>
+  </data>
+  <data name="_44" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="_45" xml:space="preserve">
+    <value>Bank Account:</value>
+  </data>
+  <data name="_42" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="_43" xml:space="preserve">
+    <value>Country:</value>
+  </data>
+  <data name="_40" xml:space="preserve">
+    <value>Telephone:</value>
+  </data>
+  <data name="_41" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="_1281" xml:space="preserve">
+    <value>Distance in Yards</value>
+  </data>
+  <data name="_1280" xml:space="preserve">
+    <value>Import Distance File</value>
+  </data>
+  <data name="_1283" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_1282" xml:space="preserve">
+    <value>RaceCode</value>
+  </data>
+  <data name="_1285" xml:space="preserve">
+    <value>Loading works only through USB directly connected to the clock, not with the Master in between!</value>
+  </data>
+  <data name="_1284" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_1287" xml:space="preserve">
+    <value>Send only first sign-on</value>
+  </data>
+  <data name="_1286" xml:space="preserve">
+    <value>Speed when pigeon would be clocked now</value>
+  </data>
+  <data name="_1289" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="_1288" xml:space="preserve">
+    <value>There is new software available for this device, to install please follow the steps below or press cancel if you don't want to update now.
+
+Step 1
+Disconnect the power from the device
+
+Step 2
+Press and hold down the 'C' button on the device.
+
+Step 3
+Reconnect the device with the USB cable
+The screen will go blank 
+
+Step 4
+Release the 'C' button and press 'OK' to start the upgrade from {0} to {1}</value>
+  </data>
+  <data name="_1290" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="_1291" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="_1292" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="_1293" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="_1294" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="_1295" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="_1296" xml:space="preserve">
+    <value>Verstuur naar CompuClub</value>
+  </data>
+  <data name="_1297" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="_1298" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_1299" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_1209" xml:space="preserve">
+    <value>Username/emailaddress:</value>
+  </data>
+  <data name="_1208" xml:space="preserve">
+    <value>Use SSL</value>
+  </data>
+  <data name="_1201" xml:space="preserve">
+    <value>Send monitor data to BriconWeb so you can remote view the monitor on BriconWeb</value>
+  </data>
+  <data name="_1200" xml:space="preserve">
+    <value>Send clubdata and all fanciers to BriconWeb</value>
+  </data>
+  <data name="_1203" xml:space="preserve">
+    <value>Password BriconWeb:</value>
+  </data>
+  <data name="_1202" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="_1205" xml:space="preserve">
+    <value>Verstuur naar Pigeon Cloud</value>
+  </data>
+  <data name="_1204" xml:space="preserve">
+    <value>Encrypt readouts</value>
+  </data>
+  <data name="_1207" xml:space="preserve">
+    <value>smtp.gmail.com</value>
+  </data>
+  <data name="_1206" xml:space="preserve">
+    <value>Advanced Mail Settings</value>
+  </data>
+  <data name="_1218" xml:space="preserve">
+    <value>Send test mail</value>
+  </data>
+  <data name="_1219" xml:space="preserve">
+    <value>Save each readout</value>
+  </data>
+  <data name="_1210" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="_1211" xml:space="preserve">
+    <value>Printmanager</value>
+  </data>
+  <data name="_1212" xml:space="preserve">
+    <value>Sender name:</value>
+  </data>
+  <data name="_1213" xml:space="preserve">
+    <value>Printmanager@bricon.be</value>
+  </data>
+  <data name="_1214" xml:space="preserve">
+    <value>Sender email:</value>
+  </data>
+  <data name="_1215" xml:space="preserve">
+    <value>Use Gmail</value>
+  </data>
+  <data name="_1216" xml:space="preserve">
+    <value>Use Telenet BE</value>
+  </data>
+  <data name="_1217" xml:space="preserve">
+    <value>Use Belgacom BE</value>
+  </data>
+  <data name="_1229" xml:space="preserve">
+    <value>Response from Briconweb: </value>
+  </data>
+  <data name="_1228" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_1223" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="_1222" xml:space="preserve">
+    <value>P. C.</value>
+  </data>
+  <data name="_1221" xml:space="preserve">
+    <value>Print each readout</value>
+  </data>
+  <data name="_1220" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="_1227" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_1226" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_1225" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1224" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="_1238" xml:space="preserve">
+    <value>Gelieve de naam in te vullen van de aktieve club</value>
+  </data>
+  <data name="_1239" xml:space="preserve">
+    <value>Gelieve de gemeente in te vullen van de aktieve club</value>
+  </data>
+  <data name="_1232" xml:space="preserve">
+    <value>' and add or update all its </value>
+  </data>
+  <data name="_1233" xml:space="preserve">
+    <value>Are you sure you want to add or update the club '</value>
+  </data>
+  <data name="_1230" xml:space="preserve">
+    <value>Send to BriconWeb</value>
+  </data>
+  <data name="_1231" xml:space="preserve">
+    <value> fanciers?</value>
+  </data>
+  <data name="_1236" xml:space="preserve">
+    <value>BCE Database Files (*.xml,*.bce)|*.xml;*.bce|All files (*.*)|*.*</value>
+  </data>
+  <data name="_1237" xml:space="preserve">
+    <value>Gelieve een geldige clubid in te vullen voor de active club</value>
+  </data>
+  <data name="_1234" xml:space="preserve">
+    <value>Error when sending to Pigeon Cloud:</value>
+  </data>
+  <data name="_1235" xml:space="preserve">
+    <value>BCE Database Files (*.bce)|*.bce|All files (*.*)|*.*</value>
+  </data>
+  <data name="_1249" xml:space="preserve">
+    <value>2009-2010</value>
+  </data>
+  <data name="_1248" xml:space="preserve">
+    <value>2017</value>
+  </data>
+  <data name="_1245" xml:space="preserve">
+    <value>2015-2016</value>
+  </data>
+  <data name="_1244" xml:space="preserve">
+    <value>2015</value>
+  </data>
+  <data name="_1247" xml:space="preserve">
+    <value>2016-2017</value>
+  </data>
+  <data name="_1246" xml:space="preserve">
+    <value>2016</value>
+  </data>
+  <data name="_1241" xml:space="preserve">
+    <value>Elektronische koppelingslijst </value>
+  </data>
+  <data name="_1240" xml:space="preserve">
+    <value>Dit is een email verstuurd vanuit Bricon BCE, in bijlage vindt u het databestand van de betreffende club.
+
+Vriendelijke Groeten.</value>
+  </data>
+  <data name="_1243" xml:space="preserve">
+    <value>2014-2015</value>
+  </data>
+  <data name="_1242" xml:space="preserve">
+    <value>Error with send monitordata, response: </value>
+  </data>
+  <data name="_1258" xml:space="preserve">
+    <value>Make sure that you have read the pigeons out of the clock before you continue, since all data will be lost, continue?</value>
+  </data>
+  <data name="_1259" xml:space="preserve">
+    <value>Loading Xtreme</value>
+  </data>
+  <data name="_1254" xml:space="preserve">
+    <value>Read Ring</value>
+  </data>
+  <data name="_1255" xml:space="preserve">
+    <value>Delete the selected ring?</value>
+  </data>
+  <data name="_1256" xml:space="preserve">
+    <value>Show totals per category</value>
+  </data>
+  <data name="_1257" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="_1250" xml:space="preserve">
+    <value>2010-2011</value>
+  </data>
+  <data name="_1251" xml:space="preserve">
+    <value>0000000</value>
+  </data>
+  <data name="_1252" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="_1253" xml:space="preserve">
+    <value>Move last</value>
+  </data>
+  <data name="_1269" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="_1268" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="_1267" xml:space="preserve">
+    <value>Continue Melody</value>
+  </data>
+  <data name="_1266" xml:space="preserve">
+    <value>Long Melody</value>
+  </data>
+  <data name="_1265" xml:space="preserve">
+    <value>Short Melody</value>
+  </data>
+  <data name="_1264" xml:space="preserve">
+    <value>Beep</value>
+  </data>
+  <data name="_1263" xml:space="preserve">
+    <value>Alarm on Arrival:</value>
+  </data>
+  <data name="_1262" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="_1261" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="_1260" xml:space="preserve">
+    <value>Test BriconWeb</value>
+  </data>
+  <data name="_1278" xml:space="preserve">
+    <value>Use Points</value>
+  </data>
+  <data name="_1279" xml:space="preserve">
+    <value>toolStripButton2</value>
+  </data>
+  <data name="_1276" xml:space="preserve">
+    <value>No ipaddress</value>
+  </data>
+  <data name="_1277" xml:space="preserve">
+    <value>     Arrive Notifier</value>
+  </data>
+  <data name="_1274" xml:space="preserve">
+    <value>     Send to BRICON Cloud</value>
+  </data>
+  <data name="_1275" xml:space="preserve">
+    <value>Please don't use @bricon or @pipa as email address, but use your own email address</value>
+  </data>
+  <data name="_1272" xml:space="preserve">
+    <value>Login/License:</value>
+  </data>
+  <data name="_1273" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="_1270" xml:space="preserve">
+    <value>BRICON Cloud</value>
+  </data>
+  <data name="_1271" xml:space="preserve">
+    <value>Send readout automatically</value>
+  </data>
+  <data name="_1380" xml:space="preserve">
+    <value>Ring {0} is reeds ingekorfd, deze kan niet herkoppeld worden</value>
+  </data>
+  <data name="_1381" xml:space="preserve">
+    <value>Error when loading Races</value>
+  </data>
+  <data name="_1382" xml:space="preserve">
+    <value>Data received from PAS-Live</value>
+  </data>
+  <data name="_1383" xml:space="preserve">
+    <value>Save to PAS-Live</value>
+  </data>
+  <data name="_1384" xml:space="preserve">
+    <value>No differences with PAS-Live</value>
+  </data>
+  <data name="_1385" xml:space="preserve">
+    <value>Tussentijds afslaan</value>
+  </data>
+  <data name="_1386" xml:space="preserve">
+    <value>Afslaan</value>
+  </data>
+  <data name="_1387" xml:space="preserve">
+    <value>Alle duiven van '{0}' uitgelezen via slimme antenne, versturen naar PAS-Live</value>
+  </data>
+  <data name="_1388" xml:space="preserve">
+    <value>Online: PasReadOutSaver: ERROR</value>
+  </data>
+  <data name="_1389" xml:space="preserve">
+    <value>Duif {0} uitgelezen via slimme antenne</value>
+  </data>
+  <data name="_1391" xml:space="preserve">
+    <value>Foutief formaat (4 cijfers)</value>
+  </data>
+  <data name="_1390" xml:space="preserve">
+    <value>Unsupported command</value>
+  </data>
+  <data name="_1393" xml:space="preserve">
+    <value>Aanwijzen en Poelen</value>
+  </data>
+  <data name="_1392" xml:space="preserve">
+    <value>Format incorrect (4 chiffres)</value>
+  </data>
+  <data name="_1395" xml:space="preserve">
+    <value>Bricon Aankomst Melder is reeds aktief, dubbelklik op het wit duifje links onderaan naast de tijd om deze te tonen.</value>
+  </data>
+  <data name="_1394" xml:space="preserve">
+    <value>    Aanwijzen en Poelen</value>
+  </data>
+  <data name="_1397" xml:space="preserve">
+    <value>Enter password to change the data</value>
+  </data>
+  <data name="_1396" xml:space="preserve">
+    <value>Test OK!</value>
+  </data>
+  <data name="_1399" xml:space="preserve">
+    <value>File already added: '</value>
+  </data>
+  <data name="_1398" xml:space="preserve">
+    <value>Error: Fancier not found with license </value>
+  </data>
+  <data name="_1308" xml:space="preserve">
+    <value>Print License Column</value>
+  </data>
+  <data name="_1309" xml:space="preserve">
+    <value>Name (printouts):</value>
+  </data>
+  <data name="_1300" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_1301" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_1302" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_1303" xml:space="preserve">
+    <value>Read Race Data</value>
+  </data>
+  <data name="_1304" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_1305" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_1306" xml:space="preserve">
+    <value>Send To Master</value>
+  </data>
+  <data name="_1307" xml:space="preserve">
+    <value>Bet Money</value>
+  </data>
+  <data name="_1328" xml:space="preserve">
+    <value>2019-2020</value>
+  </data>
+  <data name="_1329" xml:space="preserve">
+    <value>2020</value>
+  </data>
+  <data name="_1322" xml:space="preserve">
+    <value>      Incarca Xml</value>
+  </data>
+  <data name="_1323" xml:space="preserve">
+    <value>tijd</value>
+  </data>
+  <data name="_1320" xml:space="preserve">
+    <value>Error when sending to server: </value>
+  </data>
+  <data name="_1321" xml:space="preserve">
+    <value>Response: {0}</value>
+  </data>
+  <data name="_1326" xml:space="preserve">
+    <value>2018-2019</value>
+  </data>
+  <data name="_1327" xml:space="preserve">
+    <value>2019</value>
+  </data>
+  <data name="_1324" xml:space="preserve">
+    <value>2017-2018</value>
+  </data>
+  <data name="_1325" xml:space="preserve">
+    <value>2018</value>
+  </data>
+  <data name="_1319" xml:space="preserve">
+    <value>Do you want to readout {0} and send your data to the server? Then press OK button below and disconnect the power to the Xtreme and reconnect it. If not press Cancel</value>
+  </data>
+  <data name="_1318" xml:space="preserve">
+    <value>Readout cancelled</value>
+  </data>
+  <data name="_1311" xml:space="preserve">
+    <value>     Bet Money</value>
+  </data>
+  <data name="_1310" xml:space="preserve">
+    <value>City (printouts):</value>
+  </data>
+  <data name="_1313" xml:space="preserve">
+    <value>FromBA.bmp</value>
+  </data>
+  <data name="_1312" xml:space="preserve">
+    <value>     Check version Xtreme</value>
+  </data>
+  <data name="_1315" xml:space="preserve">
+    <value>Please select a Race to send</value>
+  </data>
+  <data name="_1314" xml:space="preserve">
+    <value>Problem with internet Time, can't continue! </value>
+  </data>
+  <data name="_1317" xml:space="preserve">
+    <value>Upload readout</value>
+  </data>
+  <data name="_1316" xml:space="preserve">
+    <value>Please wait until all data is received</value>
+  </data>
+  <data name="_1348" xml:space="preserve">
+    <value>https://www.pas-live.nl:6433</value>
+  </data>
+  <data name="_1349" xml:space="preserve">
+    <value>Read Out</value>
+  </data>
+  <data name="_1344" xml:space="preserve">
+    <value>Always load data from PAS-Live on startup</value>
+  </data>
+  <data name="_1345" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="_1346" xml:space="preserve">
+    <value>Beta Url:</value>
+  </data>
+  <data name="_1347" xml:space="preserve">
+    <value>Setup PAS</value>
+  </data>
+  <data name="_1340" xml:space="preserve">
+    <value>Send all your clubs, fanciers, rings TO PAS-Live</value>
+  </data>
+  <data name="_1341" xml:space="preserve">
+    <value>Basket</value>
+  </data>
+  <data name="_1342" xml:space="preserve">
+    <value>Load all your clubs, fanciers, rings FROM PAS-Live</value>
+  </data>
+  <data name="_1343" xml:space="preserve">
+    <value>Always save data to PAS-Live </value>
+  </data>
+  <data name="_1339" xml:space="preserve">
+    <value>Register new login online</value>
+  </data>
+  <data name="_1338" xml:space="preserve">
+    <value>Login ClubResponsible:</value>
+  </data>
+  <data name="_1333" xml:space="preserve">
+    <value>BRS</value>
+  </data>
+  <data name="_1332" xml:space="preserve">
+    <value>2021-2022</value>
+  </data>
+  <data name="_1331" xml:space="preserve">
+    <value>2021</value>
+  </data>
+  <data name="_1330" xml:space="preserve">
+    <value>2020-2021</value>
+  </data>
+  <data name="_1337" xml:space="preserve">
+    <value>Test Connection</value>
+  </data>
+  <data name="_1336" xml:space="preserve">
+    <value>Below you can configure PAS-Live, this is currently only available in Holland, once your country is supported, you can participate with de options below.</value>
+  </data>
+  <data name="_1335" xml:space="preserve">
+    <value>PAS-Live</value>
+  </data>
+  <data name="_1334" xml:space="preserve">
+    <value>BriconWeb.bmp</value>
+  </data>
+  <data name="_1368" xml:space="preserve">
+    <value>Same fancier, pigeons are from state instead of PAS</value>
+  </data>
+  <data name="_1369" xml:space="preserve">
+    <value>Online: PasBasketDataLoader.Load started</value>
+  </data>
+  <data name="_1366" xml:space="preserve">
+    <value>Zie antenne voor verdere instructies</value>
+  </data>
+  <data name="_1367" xml:space="preserve">
+    <value>Inkorfsessie van '{0}' gestart</value>
+  </data>
+  <data name="_1364" xml:space="preserve">
+    <value>Command unknown: {0}</value>
+  </data>
+  <data name="_1365" xml:space="preserve">
+    <value>Inkorfsessie voor wedstrijd gestart door slimme antenne</value>
+  </data>
+  <data name="_1362" xml:space="preserve">
+    <value>Second column is not long enough (expecting license of 6 or 7 bytes), line: </value>
+  </data>
+  <data name="_1363" xml:space="preserve">
+    <value>Invalid response, status was : </value>
+  </data>
+  <data name="_1360" xml:space="preserve">
+    <value>Multiple matches</value>
+  </data>
+  <data name="_1361" xml:space="preserve">
+    <value>Invalid line, each line must contains at least 4 values, line: </value>
+  </data>
+  <data name="_1359" xml:space="preserve">
+    <value>No exact match</value>
+  </data>
+  <data name="_1358" xml:space="preserve">
+    <value>Message sended to </value>
+  </data>
+  <data name="_1355" xml:space="preserve">
+    <value>Start Temp Read Out</value>
+  </data>
+  <data name="_1354" xml:space="preserve">
+    <value>Start Read Out</value>
+  </data>
+  <data name="_1357" xml:space="preserve">
+    <value>Test message from Bricon software</value>
+  </data>
+  <data name="_1356" xml:space="preserve">
+    <value>Please fill in the emailaddress to send the notifications to</value>
+  </data>
+  <data name="_1351" xml:space="preserve">
+    <value>Error: File does not exists </value>
+  </data>
+  <data name="_1350" xml:space="preserve">
+    <value>Temp Read Out</value>
+  </data>
+  <data name="_1353" xml:space="preserve">
+    <value>Start Basketting</value>
+  </data>
+  <data name="_1352" xml:space="preserve">
+    <value>Sync race {0} with clubId {1}</value>
+  </data>
+  <data name="_1379" xml:space="preserve">
+    <value>Duif met chip {0} herkoppelen aan {1}</value>
+  </data>
+  <data name="_1378" xml:space="preserve">
+    <value>Geen duif met chip {0} gevonden om te annuleren</value>
+  </data>
+  <data name="_1377" xml:space="preserve">
+    <value>Duif met chip {0} geannulleerd </value>
+  </data>
+  <data name="_1376" xml:space="preserve">
+    <value>Duif {0} ingekorfd </value>
+  </data>
+  <data name="_1375" xml:space="preserve">
+    <value>Not all data present, can't send to the cloud</value>
+  </data>
+  <data name="_1374" xml:space="preserve">
+    <value>Error in BCE</value>
+  </data>
+  <data name="_1373" xml:space="preserve">
+    <value>Inkorfsessie van '{0}' voltooid, versturen naar PAS-Live</value>
+  </data>
+  <data name="_1372" xml:space="preserve">
+    <value>Liefhebber akkoord: Wissen {0} voorbenoemde die niet ingekorfd zijn</value>
+  </data>
+  <data name="_1371" xml:space="preserve">
+    <value>Online: PasBasketDataLoader.Load: ERROR</value>
+  </data>
+  <data name="_1370" xml:space="preserve">
+    <value>Online: PasBasketDataLoader.Load: OK</value>
+  </data>
+  <data name="_1083" xml:space="preserve">
+    <value>Write to ETS</value>
+  </data>
+  <data name="_1082" xml:space="preserve">
+    <value>PigeonID</value>
+  </data>
+  <data name="_1081" xml:space="preserve">
+    <value>Pigeon Name</value>
+  </data>
+  <data name="_1080" xml:space="preserve">
+    <value>Fancier Name</value>
+  </data>
+  <data name="_1087" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="_1086" xml:space="preserve">
+    <value>Gez</value>
+  </data>
+  <data name="_1085" xml:space="preserve">
+    <value>Uits</value>
+  </data>
+  <data name="_1084" xml:space="preserve">
+    <value>Ingave  pool  mag niet hoger zijn dan aantal gezet</value>
+  </data>
+  <data name="_1089" xml:space="preserve">
+    <value>Resend</value>
+  </data>
+  <data name="_1088" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="_1092" xml:space="preserve">
+    <value>Error with briconweb, could not send to BriconWeb, please check your internet connection and firewall.</value>
+  </data>
+  <data name="_1093" xml:space="preserve">
+    <value>Error with briconweb, exception: </value>
+  </data>
+  <data name="_1090" xml:space="preserve">
+    <value>Please select a race</value>
+  </data>
+  <data name="_1091" xml:space="preserve">
+    <value>Error with briconweb, response: </value>
+  </data>
+  <data name="_1096" xml:space="preserve">
+    <value>Loading new software in device, estimated time remaining : </value>
+  </data>
+  <data name="_1097" xml:space="preserve">
+    <value>Checking software version in device...</value>
+  </data>
+  <data name="_1094" xml:space="preserve">
+    <value>No information record found in the readout, is the readoutfile in the correct format?</value>
+  </data>
+  <data name="_1095" xml:space="preserve">
+    <value>Rings read (</value>
+  </data>
+  <data name="_1098" xml:space="preserve">
+    <value> seconds</value>
+  </data>
+  <data name="_1099" xml:space="preserve">
+    <value>Selected = TRUE</value>
+  </data>
+  <data name="_1029" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_1028" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_1021" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="_1020" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_1023" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_1022" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_1025" xml:space="preserve">
+    <value>Loft</value>
+  </data>
+  <data name="_1024" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_1027" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_1026" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_1038" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_1039" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_1030" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_1031" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_1032" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_1033" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_1034" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_1035" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_1036" xml:space="preserve">
+    <value>Bet Money</value>
+  </data>
+  <data name="_1037" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="_1009" xml:space="preserve">
+    <value>     BriconWeb</value>
+  </data>
+  <data name="_1008" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_1003" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_1002" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_1001" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_1000" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_1007" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_1006" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_1005" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_1004" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_1018" xml:space="preserve">
+    <value>Pigeon Band</value>
+  </data>
+  <data name="_1019" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_1012" xml:space="preserve">
+    <value>Show BriconWeb Responses</value>
+  </data>
+  <data name="_1013" xml:space="preserve">
+    <value>Email addresses</value>
+  </data>
+  <data name="_1010" xml:space="preserve">
+    <value>Also send to PITTS</value>
+  </data>
+  <data name="_1011" xml:space="preserve">
+    <value>Also send to PIPA</value>
+  </data>
+  <data name="_1016" xml:space="preserve">
+    <value>Embedded Webserver Port:</value>
+  </data>
+  <data name="_1017" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="_1014" xml:space="preserve">
+    <value>CLK Format</value>
+  </data>
+  <data name="_1015" xml:space="preserve">
+    <value>Test BriconWeb</value>
+  </data>
+  <data name="_1069" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="_1068" xml:space="preserve">
+    <value>Aantal gezet:</value>
+  </data>
+  <data name="_1065" xml:space="preserve">
+    <value># designated:</value>
+  </data>
+  <data name="_1064" xml:space="preserve">
+    <value>Pigeons:</value>
+  </data>
+  <data name="_1067" xml:space="preserve">
+    <value>Poelbrief:</value>
+  </data>
+  <data name="_1066" xml:space="preserve">
+    <value>Click in the pos column to designate the pigeon</value>
+  </data>
+  <data name="_1061" xml:space="preserve">
+    <value>DBRing</value>
+  </data>
+  <data name="_1060" xml:space="preserve">
+    <value>koppelen</value>
+  </data>
+  <data name="_1063" xml:space="preserve">
+    <value>Races:</value>
+  </data>
+  <data name="_1062" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="_1078" xml:space="preserve">
+    <value>Pigeon Name:</value>
+  </data>
+  <data name="_1079" xml:space="preserve">
+    <value>PigeonID:</value>
+  </data>
+  <data name="_1074" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="_1075" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_1076" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_1077" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_1070" xml:space="preserve">
+    <value>Warning: Do not update if there are flights active in the device</value>
+  </data>
+  <data name="_1071" xml:space="preserve">
+    <value>There is new software available for this device, to install please follow the steps below or press cancel if you don't want to update now.
+
+Step 1
+Disconnect the power from the device
+
+Step 2
+Press and HOLD the 'C' button
+
+Step 3
+Reconnect the device with the USB cable
+On the Bricon Xtreme the screen will go blank and the blue light will flash.
+On the Speedy Xtreme the screen will go blank.
+
+Step 4
+Press 'OK' to start upgrade from {0} to {1}</value>
+  </data>
+  <data name="_1072" xml:space="preserve">
+    <value>BCE - One Loft </value>
+  </data>
+  <data name="_1073" xml:space="preserve">
+    <value>ESA</value>
+  </data>
+  <data name="_1049" xml:space="preserve">
+    <value>vluchtnamen </value>
+  </data>
+  <data name="_1048" xml:space="preserve">
+    <value>Alle </value>
+  </data>
+  <data name="_1047" xml:space="preserve">
+    <value>     Bet Money</value>
+  </data>
+  <data name="_1046" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="_1045" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="_1044" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="_1043" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="_1042" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="_1041" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="_1040" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_1058" xml:space="preserve">
+    <value>poelbrief </value>
+  </data>
+  <data name="_1059" xml:space="preserve">
+    <value>aan te </value>
+  </data>
+  <data name="_1056" xml:space="preserve">
+    <value>genomen</value>
+  </data>
+  <data name="_1057" xml:space="preserve">
+    <value>om de </value>
+  </data>
+  <data name="_1054" xml:space="preserve">
+    <value>de eerste </value>
+  </data>
+  <data name="_1055" xml:space="preserve">
+    <value>4 letters</value>
+  </data>
+  <data name="_1052" xml:space="preserve">
+    <value>hiervan</value>
+  </data>
+  <data name="_1053" xml:space="preserve">
+    <value>worden dan </value>
+  </data>
+  <data name="_1050" xml:space="preserve">
+    <value>uit de</value>
+  </data>
+  <data name="_1051" xml:space="preserve">
+    <value>extreme</value>
+  </data>
+  <data name="_1182" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="_1183" xml:space="preserve">
+    <value>Club ID</value>
+  </data>
+  <data name="_1180" xml:space="preserve">
+    <value>Webserver port is changed, please restart the program to apply it</value>
+  </data>
+  <data name="_1181" xml:space="preserve">
+    <value>Webserver port is changed, please restart the program first</value>
+  </data>
+  <data name="_1186" xml:space="preserve">
+    <value>License:</value>
+  </data>
+  <data name="_1187" xml:space="preserve">
+    <value>Races:</value>
+  </data>
+  <data name="_1184" xml:space="preserve">
+    <value>Antennas:</value>
+  </data>
+  <data name="_1185" xml:space="preserve">
+    <value>Clocked:</value>
+  </data>
+  <data name="_1188" xml:space="preserve">
+    <value>Also send to OMAR</value>
+  </data>
+  <data name="_1189" xml:space="preserve">
+    <value>Wingmark : </value>
+  </data>
+  <data name="_1193" xml:space="preserve">
+    <value>labelVersion</value>
+  </data>
+  <data name="_1192" xml:space="preserve">
+    <value>Email send.</value>
+  </data>
+  <data name="_1191" xml:space="preserve">
+    <value>Please fill in the Outgoing mailserver in the options first</value>
+  </data>
+  <data name="_1190" xml:space="preserve">
+    <value>Verstuur data naar KBDB</value>
+  </data>
+  <data name="_1197" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="_1196" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="_1195" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="_1194" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1199" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_1198" xml:space="preserve">
+    <value>SplashForm</value>
+  </data>
+  <data name="_1128" xml:space="preserve">
+    <value>support@bricon.be</value>
+  </data>
+  <data name="_1129" xml:space="preserve">
+    <value>Please fill in the login</value>
+  </data>
+  <data name="_1120" xml:space="preserve">
+    <value>Ring : </value>
+  </data>
+  <data name="_1121" xml:space="preserve">
+    <value>Distance : </value>
+  </data>
+  <data name="_1122" xml:space="preserve">
+    <value>Category : Old</value>
+  </data>
+  <data name="_1123" xml:space="preserve">
+    <value>Category : Yearling</value>
+  </data>
+  <data name="_1124" xml:space="preserve">
+    <value>Category : Young</value>
+  </data>
+  <data name="_1125" xml:space="preserve">
+    <value>Time Clocked : </value>
+  </data>
+  <data name="_1126" xml:space="preserve">
+    <value>Gummy : </value>
+  </data>
+  <data name="_1127" xml:space="preserve">
+    <value>Printmanager@Bricon.be</value>
+  </data>
+  <data name="_1108" xml:space="preserve">
+    <value>CommandReceived|</value>
+  </data>
+  <data name="_1109" xml:space="preserve">
+    <value>|</value>
+  </data>
+  <data name="_1102" xml:space="preserve">
+    <value>Please verify your country and language in the options</value>
+  </data>
+  <data name="_1103" xml:space="preserve">
+    <value>Country/Language</value>
+  </data>
+  <data name="_1100" xml:space="preserve">
+    <value>VolgordeNummer</value>
+  </data>
+  <data name="_1101" xml:space="preserve">
+    <value>Get Flightnames {0}</value>
+  </data>
+  <data name="_1106" xml:space="preserve">
+    <value>
+</value>
+  </data>
+  <data name="_1107" xml:space="preserve">
+    <value>AskForRefresh</value>
+  </data>
+  <data name="_1104" xml:space="preserve">
+    <value>Please first select your country in the options</value>
+  </data>
+  <data name="_1105" xml:space="preserve">
+    <value>UDP received : </value>
+  </data>
+  <data name="_1139" xml:space="preserve">
+    <value>{2}/{1}/{0} {3}:{4}:{5}</value>
+  </data>
+  <data name="_1138" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_1131" xml:space="preserve">
+    <value>Serbian</value>
+  </data>
+  <data name="_1130" xml:space="preserve">
+    <value>Test was successfull</value>
+  </data>
+  <data name="_1133" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+  <data name="_1132" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+  <data name="_1135" xml:space="preserve">
+    <value> received.</value>
+  </data>
+  <data name="_1134" xml:space="preserve">
+    <value>Clocked Pigeon </value>
+  </data>
+  <data name="_1137" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="_1136" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="_1168" xml:space="preserve">
+    <value>Race Distances</value>
+  </data>
+  <data name="_1169" xml:space="preserve">
+    <value>Enter Distances for this fancier</value>
+  </data>
+  <data name="_1164" xml:space="preserve">
+    <value>Warning, after upgrading your settings (language/country/email/...) will be reset, so please go to the options to reset them</value>
+  </data>
+  <data name="_1165" xml:space="preserve">
+    <value>Software loaded successful, please erase the clock now, if the device asks for a factory reset, please contact Bricon support</value>
+  </data>
+  <data name="_1166" xml:space="preserve">
+    <value>Error loading the device, make sure the blue light is flashing, please retry and follow the instructions carefully</value>
+  </data>
+  <data name="_1167" xml:space="preserve">
+    <value>Select race or enter distance manual:</value>
+  </data>
+  <data name="_1160" xml:space="preserve">
+    <value>Send money data, for level </value>
+  </data>
+  <data name="_1161" xml:space="preserve">
+    <value> and race </value>
+  </data>
+  <data name="_1162" xml:space="preserve">
+    <value>Send Designated {0} - {1}, {2}, {3}</value>
+  </data>
+  <data name="_1163" xml:space="preserve">
+    <value>Status received: {0} pigeon(s), {1} race(s), {2} antenna(s)</value>
+  </data>
+  <data name="_1119" xml:space="preserve">
+    <value>ClubID : </value>
+  </data>
+  <data name="_1118" xml:space="preserve">
+    <value>BasketDate : </value>
+  </data>
+  <data name="_1113" xml:space="preserve">
+    <value>New pigeon clocked in Bricon-Printmanager</value>
+  </data>
+  <data name="_1112" xml:space="preserve">
+    <value>' , please change it with the optionsbutton below</value>
+  </data>
+  <data name="_1111" xml:space="preserve">
+    <value>' should be the same as your license number '</value>
+  </data>
+  <data name="_1110" xml:space="preserve">
+    <value>GummyAdded|</value>
+  </data>
+  <data name="_1117" xml:space="preserve">
+    <value>Race : </value>
+  </data>
+  <data name="_1116" xml:space="preserve">
+    <value>License : </value>
+  </data>
+  <data name="_1115" xml:space="preserve">
+    <value>City : </value>
+  </data>
+  <data name="_1114" xml:space="preserve">
+    <value>Fancier : </value>
+  </data>
+  <data name="_1148" xml:space="preserve">
+    <value>Microsoft .Net framework 4.0 setup could not been downloaded</value>
+  </data>
+  <data name="_1149" xml:space="preserve">
+    <value>Microsoft .Net framework 4.0 is successfully installed</value>
+  </data>
+  <data name="_1146" xml:space="preserve">
+    <value>Microsoft .Net framework 4.0 is not installed, this will be done now.</value>
+  </data>
+  <data name="_1147" xml:space="preserve">
+    <value>Software Upgrade</value>
+  </data>
+  <data name="_1144" xml:space="preserve">
+    <value>yyyy-MM-dd HH:mm:ss</value>
+  </data>
+  <data name="_1145" xml:space="preserve">
+    <value>Your operating system is no longer supported for this program,
+in order to upgrade to the latest version you need at least windows XP SP3,
+please install the latest service pack or upgrade your operating system.
+Your system: </value>
+  </data>
+  <data name="_1142" xml:space="preserve">
+    <value>Y:</value>
+  </data>
+  <data name="_1143" xml:space="preserve">
+    <value>{0}/{1}: {2} in {3} at {4} {5}  {6}m/min
+</value>
+  </data>
+  <data name="_1140" xml:space="preserve">
+    <value>O:</value>
+  </data>
+  <data name="_1141" xml:space="preserve">
+    <value>X:</value>
+  </data>
+  <data name="_1179" xml:space="preserve">
+    <value>E C</value>
+  </data>
+  <data name="_1178" xml:space="preserve">
+    <value>A C</value>
+  </data>
+  <data name="_1175" xml:space="preserve">
+    <value>Young</value>
+  </data>
+  <data name="_1174" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="_1177" xml:space="preserve">
+    <value>Speed2</value>
+  </data>
+  <data name="_1176" xml:space="preserve">
+    <value>Antenna</value>
+  </data>
+  <data name="_1171" xml:space="preserve">
+    <value>Use Distance DB</value>
+  </data>
+  <data name="_1170" xml:space="preserve">
+    <value>Release Place</value>
+  </data>
+  <data name="_1173" xml:space="preserve">
+    <value>Old</value>
+  </data>
+  <data name="_1172" xml:space="preserve">
+    <value>Release Date</value>
+  </data>
+  <data name="_1159" xml:space="preserve">
+    <value>Respond message sended: Status : {0}</value>
+  </data>
+  <data name="_1158" xml:space="preserve">
+    <value> received</value>
+  </data>
+  <data name="_1157" xml:space="preserve">
+    <value>Race </value>
+  </data>
+  <data name="_1156" xml:space="preserve">
+    <value>The Microsoft Report Viewer 2010 is needed for printing</value>
+  </data>
+  <data name="_1155" xml:space="preserve">
+    <value>Some error occurred while installing the report viewer 2010 runtime, please reboot and retry, otherwise please download it from the Microsoft site and install it manually</value>
+  </data>
+  <data name="_1154" xml:space="preserve">
+    <value>Microsoft Report Viewer 2010 is successfully installed</value>
+  </data>
+  <data name="_1153" xml:space="preserve">
+    <value>Microsoft Report Viewer 2010 is downloaded, it will be installed now</value>
+  </data>
+  <data name="_1152" xml:space="preserve">
+    <value>Report Viewer 2010 setup could not been downloaded</value>
+  </data>
+  <data name="_1151" xml:space="preserve">
+    <value>Microsoft Report Viewer 2010 is not installed, this will downloaded and installed now.</value>
+  </data>
+  <data name="_1150" xml:space="preserve">
+    <value>Some error occurred while installing the Microsoft .Net framework 4.0, please download it from the Microsoft site and install it manually</value>
+  </data>
+  <data name="_1443" xml:space="preserve">
+    <value>Time Zone</value>
+  </data>
+  <data name="_1442" xml:space="preserve">
+    <value>Distance:(OP)</value>
+  </data>
+  <data name="_1441" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="_1440" xml:space="preserve">
+    <value>Print Overal Points Column</value>
+  </data>
+  <data name="_1447" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="_1446" xml:space="preserve">
+    <value>Max Row Count</value>
+  </data>
+  <data name="_1445" xml:space="preserve">
+    <value>Use TimeZone</value>
+  </data>
+  <data name="_1444" xml:space="preserve">
+    <value>    Overal Points</value>
+  </data>
+  <data name="_1429" xml:space="preserve">
+    <value>Basket</value>
+  </data>
+  <data name="_1428" xml:space="preserve">
+    <value>Basket Time</value>
+  </data>
+  <data name="_1425" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="_1424" xml:space="preserve">
+    <value>ElRing</value>
+  </data>
+  <data name="_1427" xml:space="preserve">
+    <value>Show debug messages</value>
+  </data>
+  <data name="_1426" xml:space="preserve">
+    <value>Designated</value>
+  </data>
+  <data name="_1421" xml:space="preserve">
+    <value>Antenna Serial:</value>
+  </data>
+  <data name="_1420" xml:space="preserve">
+    <value>Max Designated:</value>
+  </data>
+  <data name="_1423" xml:space="preserve">
+    <value>Pigeons loaded:</value>
+  </data>
+  <data name="_1422" xml:space="preserve">
+    <value>Fanciers loaded:</value>
+  </data>
+  <data name="_1438" xml:space="preserve">
+    <value>Fanciers loaded</value>
+  </data>
+  <data name="_1439" xml:space="preserve">
+    <value>Pigeons loaded</value>
+  </data>
+  <data name="_1434" xml:space="preserve">
+    <value>Warning: Your local data will be overwritten from PAS-Live</value>
+  </data>
+  <data name="_1435" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="_1436" xml:space="preserve">
+    <value>Basket fancier:</value>
+  </data>
+  <data name="_1437" xml:space="preserve">
+    <value>Follow the instructions on the smart antenna</value>
+  </data>
+  <data name="_1430" xml:space="preserve">
+    <value>http://pas.adgsoft.be:9300/pasadmin</value>
+  </data>
+  <data name="_1431" xml:space="preserve">
+    <value>Start basket session</value>
+  </data>
+  <data name="_1432" xml:space="preserve">
+    <value>Please select a race to basket</value>
+  </data>
+  <data name="_1433" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="_1409" xml:space="preserve">
+    <value>Restore BCEDataOLD.bce ({0}b) to BCEData.bce({1}b), program will exit after restore?</value>
+  </data>
+  <data name="_1408" xml:space="preserve">
+    <value>Restore BCEData.OLDxml ({0}b) to BCEData.xml({1}b) and delete the compressed BCEData.bce({2}b), program will exit after restore?</value>
+  </data>
+  <data name="_1407" xml:space="preserve">
+    <value>Distance Files (*.txt)|*.txt|All files (*.*)|*.*</value>
+  </data>
+  <data name="_1406" xml:space="preserve">
+    <value>Master is not connected!</value>
+  </data>
+  <data name="_1405" xml:space="preserve">
+    <value>Master version is too old! (</value>
+  </data>
+  <data name="_1404" xml:space="preserve">
+    <value>Change Beta Url</value>
+  </data>
+  <data name="_1403" xml:space="preserve">
+    <value>Enter the code please:</value>
+  </data>
+  <data name="_1402" xml:space="preserve">
+    <value>Programma wordt nu afgesloten, gelieve het opnieuw te starten</value>
+  </data>
+  <data name="_1401" xml:space="preserve">
+    <value>Gelieve uw login en wachtwoord in te vullen.</value>
+  </data>
+  <data name="_1400" xml:space="preserve">
+    <value>Opnieuw Instellen PAS</value>
+  </data>
+  <data name="_1418" xml:space="preserve">
+    <value>Basket session</value>
+  </data>
+  <data name="_1419" xml:space="preserve">
+    <value>Basket fancier:</value>
+  </data>
+  <data name="_1416" xml:space="preserve">
+    <value>Read Out Fancier</value>
+  </data>
+  <data name="_1417" xml:space="preserve">
+    <value>Follow the instructions on the smart antenna</value>
+  </data>
+  <data name="_1414" xml:space="preserve">
+    <value>Please select your club.</value>
+  </data>
+  <data name="_1415" xml:space="preserve">
+    <value>New version available. </value>
+  </data>
+  <data name="_1412" xml:space="preserve">
+    <value>Warning, this will overwrite all your clubs, fanciers, rings that are linked to the clubs where the login is linked to.</value>
+  </data>
+  <data name="_1413" xml:space="preserve">
+    <value>Receive data from PAS-Live</value>
+  </data>
+  <data name="_1410" xml:space="preserve">
+    <value>Enter code</value>
+  </data>
+  <data name="_1411" xml:space="preserve">
+    <value>BCEDataOLD.bce does not exist, can't restore</value>
+  </data>
+  <data name="_921" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_920" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_923" xml:space="preserve">
+    <value>Pigeon Band</value>
+  </data>
+  <data name="_922" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="_925" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="_924" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_927" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_926" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_929" xml:space="preserve">
+    <value>Loft</value>
+  </data>
+  <data name="_928" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_930" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_931" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_932" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_933" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_934" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_935" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_936" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_937" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_938" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_939" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_903" xml:space="preserve">
+    <value>     Refresh</value>
+  </data>
+  <data name="_902" xml:space="preserve">
+    <value>     Send Email</value>
+  </data>
+  <data name="_901" xml:space="preserve">
+    <value>Mail.png</value>
+  </data>
+  <data name="_900" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="_907" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_906" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="_905" xml:space="preserve">
+    <value>Emailadress to send sign-ons to:</value>
+  </data>
+  <data name="_904" xml:space="preserve">
+    <value>Clock fake pigeon</value>
+  </data>
+  <data name="_909" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_908" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="_912" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_913" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_910" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_911" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_916" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_917" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_914" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_915" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_918" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_919" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_965" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_964" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_967" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_966" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_961" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="_960" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_963" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_962" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_969" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_968" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_974" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_975" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_976" xml:space="preserve">
+    <value>Please fill in the wingmark</value>
+  </data>
+  <data name="_977" xml:space="preserve">
+    <value>This functionality requires Microsoft .NET 3.0. You can find it at http://www.microsoft.com/download/en/details.aspx?id=31</value>
+  </data>
+  <data name="_970" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_971" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_972" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_973" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_978" xml:space="preserve">
+    <value>Pigeons report</value>
+  </data>
+  <data name="_979" xml:space="preserve">
+    <value>Are you sure you wish to send all the pigeons by email?</value>
+  </data>
+  <data name="_947" xml:space="preserve">
+    <value>P/N</value>
+  </data>
+  <data name="_946" xml:space="preserve">
+    <value>P/P</value>
+  </data>
+  <data name="_945" xml:space="preserve">
+    <value>P/C</value>
+  </data>
+  <data name="_944" xml:space="preserve">
+    <value>A/C</value>
+  </data>
+  <data name="_943" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_942" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_941" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_940" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_949" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_948" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_956" xml:space="preserve">
+    <value>Wingmark</value>
+  </data>
+  <data name="_957" xml:space="preserve">
+    <value>Please enter the wingmark for {0} clocked at {1}</value>
+  </data>
+  <data name="_954" xml:space="preserve">
+    <value>Please enter the gummy ring for {0} clocked at {1}</value>
+  </data>
+  <data name="_955" xml:space="preserve">
+    <value>Please fill in the gunny</value>
+  </data>
+  <data name="_952" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_953" xml:space="preserve">
+    <value>Gummy ring</value>
+  </data>
+  <data name="_950" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_951" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_958" xml:space="preserve">
+    <value>Yards</value>
+  </data>
+  <data name="_959" xml:space="preserve">
+    <value>Pigeon Band</value>
+  </data>
+  <data name="_989" xml:space="preserve">
+    <value>Enable networked monitoring</value>
+  </data>
+  <data name="_988" xml:space="preserve">
+    <value>YB</value>
+  </data>
+  <data name="_983" xml:space="preserve">
+    <value>FI</value>
+  </data>
+  <data name="_982" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+  <data name="_981" xml:space="preserve">
+    <value>Your login for BriconWeb should be the same as your license number, please change it with the optionsbutton below</value>
+  </data>
+  <data name="_980" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="_987" xml:space="preserve">
+    <value>YE</value>
+  </data>
+  <data name="_986" xml:space="preserve">
+    <value>     Options</value>
+  </data>
+  <data name="_985" xml:space="preserve">
+    <value>    Exit</value>
+  </data>
+  <data name="_984" xml:space="preserve">
+    <value>Moroco</value>
+  </data>
+  <data name="_998" xml:space="preserve">
+    <value>Loft</value>
+  </data>
+  <data name="_999" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_992" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_993" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="_990" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="_991" xml:space="preserve">
+    <value>Pigeon Band</value>
+  </data>
+  <data name="_996" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_997" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_994" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="_995" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_820" xml:space="preserve">
+    <value>FCI-CD</value>
+  </data>
+  <data name="_821" xml:space="preserve">
+    <value>FCI-E</value>
+  </data>
+  <data name="_822" xml:space="preserve">
+    <value>FCI-E</value>
+  </data>
+  <data name="_823" xml:space="preserve">
+    <value>FCI-CD</value>
+  </data>
+  <data name="_824" xml:space="preserve">
+    <value>Check Rings</value>
+  </data>
+  <data name="_825" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_826" xml:space="preserve">
+    <value>Rings read</value>
+  </data>
+  <data name="_827" xml:space="preserve">
+    <value>Export List</value>
+  </data>
+  <data name="_828" xml:space="preserve">
+    <value>Comma Seperated Excel Files(*.csv)|*.csv</value>
+  </data>
+  <data name="_829" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_802" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="_803" xml:space="preserve">
+    <value>Master</value>
+  </data>
+  <data name="_800" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_801" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_806" xml:space="preserve">
+    <value>Position3</value>
+  </data>
+  <data name="_807" xml:space="preserve">
+    <value>Position4</value>
+  </data>
+  <data name="_804" xml:space="preserve">
+    <value>Position1</value>
+  </data>
+  <data name="_805" xml:space="preserve">
+    <value>Position2</value>
+  </data>
+  <data name="_808" xml:space="preserve">
+    <value>Read Race Data</value>
+  </data>
+  <data name="_809" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_831" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="_830" xml:space="preserve">
+    <value>Send To Master</value>
+  </data>
+  <data name="_833" xml:space="preserve">
+    <value>ClubID not correct.</value>
+  </data>
+  <data name="_832" xml:space="preserve">
+    <value>Bricon Club Editor</value>
+  </data>
+  <data name="_835" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="_834" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="_837" xml:space="preserve">
+    <value>Please select a fancier</value>
+  </data>
+  <data name="_836" xml:space="preserve">
+    <value>Stopping communication...</value>
+  </data>
+  <data name="_839" xml:space="preserve">
+    <value>     Monitor</value>
+  </data>
+  <data name="_838" xml:space="preserve">
+    <value>AutoLoad.bmp</value>
+  </data>
+  <data name="_864" xml:space="preserve">
+    <value>Race2</value>
+  </data>
+  <data name="_865" xml:space="preserve">
+    <value>Connected Antennas: </value>
+  </data>
+  <data name="_866" xml:space="preserve">
+    <value>Pigeon Band</value>
+  </data>
+  <data name="_867" xml:space="preserve">
+    <value>Race</value>
+  </data>
+  <data name="_860" xml:space="preserve">
+    <value>Reading ring...Press &lt;C&gt; on master to stop</value>
+  </data>
+  <data name="_861" xml:space="preserve">
+    <value>&lt;All&gt;</value>
+  </data>
+  <data name="_862" xml:space="preserve">
+    <value>&lt;Training&gt;</value>
+  </data>
+  <data name="_863" xml:space="preserve">
+    <value>Race1</value>
+  </data>
+  <data name="_868" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="_869" xml:space="preserve">
+    <value>Loft</value>
+  </data>
+  <data name="_813" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="_812" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="_811" xml:space="preserve">
+    <value>Load ESA</value>
+  </data>
+  <data name="_810" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="_817" xml:space="preserve">
+    <value>2013-2014</value>
+  </data>
+  <data name="_816" xml:space="preserve">
+    <value>2012-2013</value>
+  </data>
+  <data name="_815" xml:space="preserve">
+    <value>2011-2012</value>
+  </data>
+  <data name="_814" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="_819" xml:space="preserve">
+    <value>Flight</value>
+  </data>
+  <data name="_818" xml:space="preserve">
+    <value>2014</value>
+  </data>
+  <data name="_846" xml:space="preserve">
+    <value>Fancier</value>
+  </data>
+  <data name="_847" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="_845" xml:space="preserve">
+    <value>   Resend To BriconWeb</value>
+  </data>
+  <data name="_842" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="_843" xml:space="preserve">
+    <value>Log : </value>
+  </data>
+  <data name="_840" xml:space="preserve">
+    <value>Monitoring</value>
+  </data>
+  <data name="_841" xml:space="preserve">
+    <value>Status : </value>
+  </data>
+  <data name="_848" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="_849" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_875" xml:space="preserve">
+    <value>Loft NR:</value>
+  </data>
+  <data name="_874" xml:space="preserve">
+    <value>Number of races :</value>
+  </data>
+  <data name="_877" xml:space="preserve">
+    <value>Login BriconWeb:</value>
+  </data>
+  <data name="_876" xml:space="preserve">
+    <value>Monitor Options</value>
+  </data>
+  <data name="_871" xml:space="preserve">
+    <value>Loft</value>
+  </data>
+  <data name="_870" xml:space="preserve">
+    <value>Velocity</value>
+  </data>
+  <data name="_873" xml:space="preserve">
+    <value>Clocked pigeons :</value>
+  </data>
+  <data name="_872" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="_879" xml:space="preserve">
+    <value>Emailadress to send notifications to:</value>
+  </data>
+  <data name="_878" xml:space="preserve">
+    <value>Password BriconWeb:</value>
+  </data>
+  <data name="_857" xml:space="preserve">
+    <value>Resend to BriconWeb</value>
+  </data>
+  <data name="_856" xml:space="preserve">
+    <value>Load Other Flight</value>
+  </data>
+  <data name="_855" xml:space="preserve">
+    <value>Clocked time</value>
+  </data>
+  <data name="_854" xml:space="preserve">
+    <value>EL Band</value>
+  </data>
+  <data name="_853" xml:space="preserve">
+    <value>Pigeon Band:</value>
+  </data>
+  <data name="_852" xml:space="preserve">
+    <value>Clocked Pigeons:</value>
+  </data>
+  <data name="_851" xml:space="preserve">
+    <value>Total pigeons clocked:</value>
+  </data>
+  <data name="_850" xml:space="preserve">
+    <value>Pigeons basketted:</value>
+  </data>
+  <data name="_859" xml:space="preserve">
+    <value>Championships</value>
+  </data>
+  <data name="_858" xml:space="preserve">
+    <value>Add ReadOut</value>
+  </data>
+  <data name="_888" xml:space="preserve">
+    <value>Check Ring for export</value>
+  </data>
+  <data name="_889" xml:space="preserve">
+    <value>Fancier data received, name : {0} </value>
+  </data>
+  <data name="_882" xml:space="preserve">
+    <value>X-treme</value>
+  </data>
+  <data name="_883" xml:space="preserve">
+    <value>NR</value>
+  </data>
+  <data name="_880" xml:space="preserve">
+    <value>Outgoing mailserver:</value>
+  </data>
+  <data name="_881" xml:space="preserve">
+    <value>Communication: </value>
+  </data>
+  <data name="_886" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_887" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="_884" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="_885" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="_899" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="_898" xml:space="preserve">
+    <value>     BriconWeb</value>
+  </data>
+  <data name="_893" xml:space="preserve">
+    <value>The following pigeon(s) are clocked:
+</value>
+  </data>
+  <data name="_892" xml:space="preserve">
+    <value>
+Below all the pigeons:
+</value>
+  </data>
+  <data name="_891" xml:space="preserve">
+    <value>Clock responded</value>
+  </data>
+  <data name="_890" xml:space="preserve">
+    <value>No response</value>
+  </data>
+  <data name="_897" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="_896" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="_895" xml:space="preserve">
+    <value>Error when sending email, please verify the options: </value>
+  </data>
+  <data name="_894" xml:space="preserve">
+    <value>New pigeons arrived</value>
+  </data>
+  <data name="_381" xml:space="preserve">
+    <value>Sending new fancierversions to Master... (can take several minutes)</value>
+  </data>
+  <data name="_380" xml:space="preserve">
+    <value>Club with ID {0} could not be found anymore, ignoring the received serialnumber.</value>
+  </data>
+  <data name="_383" xml:space="preserve">
+    <value>System.Data.Design.TypedDataSetGenerator</value>
+  </data>
+  <data name="_382" xml:space="preserve">
+    <value>Uploading </value>
+  </data>
+  <data name="_385" xml:space="preserve">
+    <value>    Read Out</value>
+  </data>
+  <data name="_384" xml:space="preserve">
+    <value>    Exit</value>
+  </data>
+  <data name="_387" xml:space="preserve">
+    <value>Send multiple fanciers to ETS</value>
+  </data>
+  <data name="_386" xml:space="preserve">
+    <value>2007-05-25</value>
+  </data>
+  <data name="_389" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="_388" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="_390" xml:space="preserve">
+    <value>Send Multiple Fanciers</value>
+  </data>
+  <data name="_391" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="_392" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="_393" xml:space="preserve">
+    <value>Naam</value>
+  </data>
+  <data name="_394" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="_395" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="_396" xml:space="preserve">
+    <value>Gemeente</value>
+  </data>
+  <data name="_397" xml:space="preserve">
+    <value>Telefoon</value>
+  </data>
+  <data name="_398" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="_399" xml:space="preserve">
+    <value>Bankrekening</value>
+  </data>
+  <data name="_309" xml:space="preserve">
+    <value>Please stop the communication when you remove the USB cable or power off the master.</value>
+  </data>
+  <data name="_308" xml:space="preserve">
+    <value>Stop Communication</value>
+  </data>
+  <data name="_301" xml:space="preserve">
+    <value>Error </value>
+  </data>
+  <data name="_300" xml:space="preserve">
+    <value>Error while updating master software:</value>
+  </data>
+  <data name="_303" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="_302" xml:space="preserve">
+    <value> when loading new master software : </value>
+  </data>
+  <data name="_305" xml:space="preserve">
+    <value>Single User</value>
+  </data>
+  <data name="_304" xml:space="preserve">
+    <value>Multi User</value>
+  </data>
+  <data name="_307" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="_306" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="_318" xml:space="preserve">
+    <value>ClubID:</value>
+  </data>
+  <data name="_319" xml:space="preserve">
+    <value>Pincode:</value>
+  </data>
+  <data name="_310" xml:space="preserve">
+    <value>Error in AutoSave: </value>
+  </data>
+  <data name="_311" xml:space="preserve">
+    <value>Database Files (*.xml)|*.xml|All files (*.*)|*.*</value>
+  </data>
+  <data name="_312" xml:space="preserve">
+    <value>Race data not deleted.</value>
+  </data>
+  <data name="_313" xml:space="preserve">
+    <value>Serial could not be retrieved from response '</value>
+  </data>
+  <data name="_314" xml:space="preserve">
+    <value>Busy loading new software in Master, this can take up to 10 minutes, please do not disconnect the device while loading...</value>
+  </data>
+  <data name="_315" xml:space="preserve">
+    <value>______/__</value>
+  </data>
+  <data name="_316" xml:space="preserve">
+    <value>000000/00</value>
+  </data>
+  <data name="_317" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="_329" xml:space="preserve">
+    <value>Manual Load Master </value>
+  </data>
+  <data name="_328" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_323" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="_322" xml:space="preserve">
+    <value>Responsible:</value>
+  </data>
+  <data name="_321" xml:space="preserve">
+    <value>Serial Nbr Master:</value>
+  </data>
+  <data name="_320" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="_327" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="_326" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="_325" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="_324" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="_338" xml:space="preserve">
+    <value>Race name must be filled in</value>
+  </data>
+  <data name="_339" xml:space="preserve">
+    <value>Duplicate Race code in selected records</value>
+  </data>
+  <data name="_332" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="_333" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="_330" xml:space="preserve">
+    <value>Select the correct comport, press the Update button and restart master when asked to do this.</value>
+  </data>
+  <data name="_331" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="_336" xml:space="preserve">
+    <value>Maximum {0} races are allowed</value>
+  </data>
+  <data name="_337" xml:space="preserve">
+    <value>Race code must be 4 characters long</value>
+  </data>
+  <data name="_334" xml:space="preserve">
+    <value>Update Master Manual </value>
+  </data>
+  <data name="_335" xml:space="preserve">
+    <value>Communication stopped</value>
+  </data>
+  <data name="_349" xml:space="preserve">
+    <value>1. With serial cable: </value>
+  </data>
+  <data name="_348" xml:space="preserve">
+    <value>There must be at least one club</value>
+  </data>
+  <data name="_345" xml:space="preserve">
+    <value>Loading started, time elapsed: {0}m{1}s</value>
+  </data>
+  <data name="_344" xml:space="preserve">
+    <value>Could not restart master, please manually restart it now.</value>
+  </data>
+  <data name="_347" xml:space="preserve">
+    <value>There are still fanciers for this club, please delete them first</value>
+  </data>
+  <data name="_346" xml:space="preserve">
+    <value>More then 10 minutes are elapsed, there went something wrong when loading the master, please try again by restarting BCE and the master.</value>
+  </data>
+  <data name="_341" xml:space="preserve">
+    <value>Resetting master...</value>
+  </data>
+  <data name="_340" xml:space="preserve">
+    <value>Invalid port</value>
+  </data>
+  <data name="_343" xml:space="preserve">
+    <value>Starting loader program...</value>
+  </data>
+  <data name="_342" xml:space="preserve">
+    <value>Stopping communication...</value>
+  </data>
+  <data name="_358" xml:space="preserve">
+    <value>Wrong pincode</value>
+  </data>
+  <data name="_359" xml:space="preserve">
+    <value>Invalid pincode</value>
+  </data>
+  <data name="_354" xml:space="preserve">
+    <value>New pincode :</value>
+  </data>
+  <data name="_355" xml:space="preserve">
+    <value>Repeat new pincode :</value>
+  </data>
+  <data name="_356" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="_357" xml:space="preserve">
+    <value>Please restart Master now.</value>
+  </data>
+  <data name="_350" xml:space="preserve">
+    <value>Restart master while holding the OK button (a red light will burn) Now press the refresh button and select the correct comport(will probably be the highest one) Now press the Update button and pres the OK button on the master when asked to restart the master.</value>
+  </data>
+  <data name="_351" xml:space="preserve">
+    <value>2. With USB cable: </value>
+  </data>
+  <data name="_352" xml:space="preserve">
+    <value>Change Pincode</value>
+  </data>
+  <data name="_353" xml:space="preserve">
+    <value>Enter old pincode :</value>
+  </data>
+  <data name="_369" xml:space="preserve">
+    <value>Downloading latest fancier versions...</value>
+  </data>
+  <data name="_368" xml:space="preserve">
+    <value>Illegal Update Command</value>
+  </data>
+  <data name="_367" xml:space="preserve">
+    <value>Illegal parameters</value>
+  </data>
+  <data name="_366" xml:space="preserve">
+    <value>Storage Not Allowed</value>
+  </data>
+  <data name="_365" xml:space="preserve">
+    <value>Switch After Responce To 38400</value>
+  </data>
+  <data name="_364" xml:space="preserve">
+    <value>Switch After Responce To 9600</value>
+  </data>
+  <data name="_363" xml:space="preserve">
+    <value>Actual Baudrate Not Changed</value>
+  </data>
+  <data name="_362" xml:space="preserve">
+    <value>Test BriconWeb</value>
+  </data>
+  <data name="_361" xml:space="preserve">
+    <value>Search Master with update function</value>
+  </data>
+  <data name="_360" xml:space="preserve">
+    <value>Send version and storage information</value>
+  </data>
+  <data name="_378" xml:space="preserve">
+    <value>Send Update file with datalength of {0}, Type = {1}, Version = {2}, Storage = {3}</value>
+  </data>
+  <data name="_379" xml:space="preserve">
+    <value>Send version and storage information with menuentry = '{0}', Type = {1}, Version = {2}, Storage = {3}</value>
+  </data>
+  <data name="_376" xml:space="preserve">
+    <value>Error while updating fancier software:</value>
+  </data>
+  <data name="_377" xml:space="preserve">
+    <value>Downloading latest master version...</value>
+  </data>
+  <data name="_374" xml:space="preserve">
+    <value>Failed to send a block, skipping the rest: </value>
+  </data>
+  <data name="_375" xml:space="preserve">
+    <value>Switch back to 9600baud failed, response : </value>
+  </data>
+  <data name="_372" xml:space="preserve">
+    <value>Switch to 38400baud failed, response : </value>
+  </data>
+  <data name="_373" xml:space="preserve">
+    <value>Send Version Info failed, response : </value>
+  </data>
+  <data name="_370" xml:space="preserve">
+    <value>Waiting for master to become active again...</value>
+  </data>
+  <data name="_371" xml:space="preserve">
+    <value>COM</value>
+  </data>
+  <data name="_280" xml:space="preserve">
+    <value>Busy Loading Software Master</value>
+  </data>
+  <data name="_281" xml:space="preserve">
+    <value>Reset Master</value>
+  </data>
+  <data name="_282" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="_283" xml:space="preserve">
+    <value>Could not reset Master, please restart program.</value>
+  </data>
+  <data name="_284" xml:space="preserve">
+    <value>Some fields are incorrect, please check for errors.</value>
+  </data>
+  <data name="_285" xml:space="preserve">
+    <value>Duplicate ELRing</value>
+  </data>
+  <data name="_286" xml:space="preserve">
+    <value>Duplicate DBRing</value>
+  </data>
+  <data name="_287" xml:space="preserve">
+    <value>DBRing and ELRing not correct</value>
+  </data>
+  <data name="_288" xml:space="preserve">
+    <value>DBRing not correct</value>
+  </data>
+  <data name="_289" xml:space="preserve">
+    <value>ELRing not correct</value>
+  </data>
+  <data name="_291" xml:space="preserve">
+    <value>Get Fancier data</value>
+  </data>
+  <data name="_290" xml:space="preserve">
+    <value>Field must be filled in</value>
+  </data>
+  <data name="_293" xml:space="preserve">
+    <value>Please connect next device</value>
+  </data>
+  <data name="_292" xml:space="preserve">
+    <value>Auto Load : Could not find a fancier for this device, please connect next.</value>
+  </data>
+  <data name="_295" xml:space="preserve">
+    <value>No fancier found with this serial, do you wish to create a new fancier with the received data?</value>
+  </data>
+  <data name="_294" xml:space="preserve">
+    <value>Do you wish to overwrite fancier '{0}'-'{1}' with the received data?</value>
+  </data>
+  <data name="_297" xml:space="preserve">
+    <value>' please read it manual.</value>
+  </data>
+  <data name="_296" xml:space="preserve">
+    <value>Multiple fanciers found with serial '</value>
+  </data>
+  <data name="_299" xml:space="preserve">
+    <value>New version of Master loaded...</value>
+  </data>
+  <data name="_298" xml:space="preserve">
+    <value>Emergency Rings Replaced</value>
+  </data>
+  <data name="_208" xml:space="preserve">
+    <value>Automatically load fancier data when activating BA if the serial is found 
+or else read the fancier data from BA and add it as a new fancier</value>
+  </data>
+  <data name="_209" xml:space="preserve">
+    <value>Hen</value>
+  </data>
+  <data name="_200" xml:space="preserve">
+    <value>Flights.bmp</value>
+  </data>
+  <data name="_201" xml:space="preserve">
+    <value>Options.bmp</value>
+  </data>
+  <data name="_202" xml:space="preserve">
+    <value>infoBubble.bmp</value>
+  </data>
+  <data name="_203" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="_204" xml:space="preserve">
+    <value>Reading ring...
+Press &lt;C&gt; on master to stop</value>
+  </data>
+  <data name="_205" xml:space="preserve">
+    <value>00:00:00,0</value>
+  </data>
+  <data name="_206" xml:space="preserve">
+    <value>__:__:__,_</value>
+  </data>
+  <data name="_207" xml:space="preserve">
+    <value>Automatically load fancier data when activating BA if the serial is found 
+</value>
+  </data>
+  <data name="_228" xml:space="preserve">
+    <value>Spain</value>
+  </data>
+  <data name="_229" xml:space="preserve">
+    <value>Hungary</value>
+  </data>
+  <data name="_222" xml:space="preserve">
+    <value> with loft number checking</value>
+  </data>
+  <data name="_223" xml:space="preserve">
+    <value>Fancier with ID {0} could not be found anymore, ignoring the received data and aborting reading the rings.</value>
+  </data>
+  <data name="_220" xml:space="preserve">
+    <value>Read new Ring for '{1}' - '{2}'</value>
+  </data>
+  <data name="_221" xml:space="preserve">
+    <value>Read Ring '{0}' for '{1}' - '{2}'</value>
+  </data>
+  <data name="_226" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="_227" xml:space="preserve">
+    <value>Croatia</value>
+  </data>
+  <data name="_224" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="_219" xml:space="preserve">
+    <value>Auto Load: No fancier found with serial '{0}', do you which to read out the BA and add it as a new fancier?</value>
+  </data>
+  <data name="_218" xml:space="preserve">
+    <value>Auto Load: Do you want to write the fancier data of '{0}' with loft number '{1}' to the BA with serial '{2}'?</value>
+  </data>
+  <data name="_211" xml:space="preserve">
+    <value>Loft number not correct.</value>
+  </data>
+  <data name="_210" xml:space="preserve">
+    <value>Please press &lt;C&gt; on the master for at least one second to activate the master again</value>
+  </data>
+  <data name="_213" xml:space="preserve">
+    <value>Some of the parameters are incorrect. The generated rings would not be valid.</value>
+  </data>
+  <data name="_212" xml:space="preserve">
+    <value>Length of the 'From' and 'To' should be the same.</value>
+  </data>
+  <data name="_215" xml:space="preserve">
+    <value>Some of the parameters are incorrect.</value>
+  </data>
+  <data name="_214" xml:space="preserve">
+    <value>The 'From' and the 'To' should be different from each other.</value>
+  </data>
+  <data name="_217" xml:space="preserve">
+    <value>More then 1000 rings would be created, this is to much.</value>
+  </data>
+  <data name="_216" xml:space="preserve">
+    <value>The 'From' is bigger then the 'To'.</value>
+  </data>
+  <data name="_248" xml:space="preserve">
+    <value>SaveAll.bmp</value>
+  </data>
+  <data name="_249" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="_244" xml:space="preserve">
+    <value>Are you sure you want delete this fancier?</value>
+  </data>
+  <data name="_245" xml:space="preserve">
+    <value>Do you want to clear the current race calendar before adding the default calendar?</value>
+  </data>
+  <data name="_246" xml:space="preserve">
+    <value>Belgique(Tour)</value>
+  </data>
+  <data name="_247" xml:space="preserve">
+    <value>Not supported for this country</value>
+  </data>
+  <data name="_240" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="_241" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_242" xml:space="preserve">
+    <value>Add Default Races</value>
+  </data>
+  <data name="_243" xml:space="preserve">
+    <value>This will override the current fancier, are you sure you want to do this? Pressing No will add a new fancier</value>
+  </data>
+  <data name="_239" xml:space="preserve">
+    <value>Nbr</value>
+  </data>
+  <data name="_238" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="_233" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+  <data name="_232" xml:space="preserve">
+    <value>New Zealand</value>
+  </data>
+  <data name="_231" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+  <data name="_230" xml:space="preserve">
+    <value>Luxembourg</value>
+  </data>
+  <data name="_237" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+  <data name="_236" xml:space="preserve">
+    <value>South Africa</value>
+  </data>
+  <data name="_235" xml:space="preserve">
+    <value>Saudi Arabia</value>
+  </data>
+  <data name="_234" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+  <data name="_268" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="_269" xml:space="preserve">
+    <value>For this to work you need to have the Bricon PC-Communication program (Upload95) installed on this computer.</value>
+  </data>
+  <data name="_266" xml:space="preserve">
+    <value>Read Ring for '{0}' - '{1}'</value>
+  </data>
+  <data name="_267" xml:space="preserve">
+    <value>A new version is being installed, the program will close when it is ready.</value>
+  </data>
+  <data name="_264" xml:space="preserve">
+    <value>Please abort read ring commands first</value>
+  </data>
+  <data name="_265" xml:space="preserve">
+    <value>Error occurred when trying to update the received data, please try again</value>
+  </data>
+  <data name="_262" xml:space="preserve">
+    <value>Re-Start Communication</value>
+  </data>
+  <data name="_263" xml:space="preserve">
+    <value>Save Flights failed!</value>
+  </data>
+  <data name="_260" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="_261" xml:space="preserve">
+    <value>Timeout for polling :</value>
+  </data>
+  <data name="_259" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_258" xml:space="preserve">
+    <value>Outgoing mailserver:</value>
+  </data>
+  <data name="_255" xml:space="preserve">
+    <value>Delay After Command</value>
+  </data>
+  <data name="_254" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="_257" xml:space="preserve">
+    <value>Login BriconWeb:</value>
+  </data>
+  <data name="_256" xml:space="preserve">
+    <value>Delay ReadRing</value>
+  </data>
+  <data name="_251" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="_250" xml:space="preserve">
+    <value>Timings</value>
+  </data>
+  <data name="_253" xml:space="preserve">
+    <value>2000</value>
+  </data>
+  <data name="_252" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="_279" xml:space="preserve">
+    <value>CLUB</value>
+  </data>
+  <data name="_278" xml:space="preserve">
+    <value> is missing</value>
+  </data>
+  <data name="_277" xml:space="preserve">
+    <value>Step 3: Importing the text file to the BCE database.</value>
+  </data>
+  <data name="_276" xml:space="preserve">
+    <value>Step 2: If you wish you can edit the text file to delete unwanted data, however only delete/move lines at a whole, do you want to edit this file before importing it(don't forget to save it)?</value>
+  </data>
+  <data name="_275" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="_274" xml:space="preserve">
+    <value>Data could not be imported, please make sure you have the latest Bricon PC-Communication Software installed (version 4.62)</value>
+  </data>
+  <data name="_273" xml:space="preserve">
+    <value>DataToImport.txt</value>
+  </data>
+  <data name="_272" xml:space="preserve">
+    <value>BCE_DBConverter.exe</value>
+  </data>
+  <data name="_271" xml:space="preserve">
+    <value>Step 1: Converting the old database to a text file.</value>
+  </data>
+  <data name="_270" xml:space="preserve">
+    <value>Importing</value>
+  </data>
+  <data name="_183" xml:space="preserve">
+    <value>A new version is downloaded, do you wish to install it?</value>
+  </data>
+  <data name="_182" xml:space="preserve">
+    <value>A new version is downloaded and installed, to start using it, please restart the program</value>
+  </data>
+  <data name="_180" xml:space="preserve">
+    <value>A new version is available for download, do you wish to download it?</value>
+  </data>
+  <data name="_187" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="_186" xml:space="preserve">
+    <value>Add Rings</value>
+  </data>
+  <data name="_185" xml:space="preserve">
+    <value>Generate Rings</value>
+  </data>
+  <data name="_184" xml:space="preserve">
+    <value>Fatal error occurred when updating the program,
+please try to fix it again by manually copy the original program files from 
+'{0}' to '{1}' or try to copy the new files from
+'{2}' to '{3}'
+See '{4}\SoftwareUpdates.log' for details.
+
+Error: {5}
+</value>
+  </data>
+  <data name="_189" xml:space="preserve">
+    <value>Country code:</value>
+  </data>
+  <data name="_188" xml:space="preserve">
+    <value>Preview --&gt;</value>
+  </data>
+  <data name="_193" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="_190" xml:space="preserve">
+    <value>Year:</value>
+  </data>
+  <data name="_191" xml:space="preserve">
+    <value>From:</value>
+  </data>
+  <data name="_196" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="_197" xml:space="preserve">
+    <value>Fanciers.bmp</value>
+  </data>
+  <data name="_194" xml:space="preserve">
+    <value>Replace Rings</value>
+  </data>
+  <data name="_195" xml:space="preserve">
+    <value>Library: {0} version {1}</value>
+  </data>
+  <data name="_198" xml:space="preserve">
+    <value>Fancier.bmp</value>
+  </data>
+  <data name="_199" xml:space="preserve">
+    <value>Clubs.bmp</value>
+  </data>
+  <data name="_129" xml:space="preserve">
+    <value>Database not found</value>
+  </data>
+  <data name="_128" xml:space="preserve">
+    <value>Please don't change the check boxes, it does not affect anything</value>
+  </data>
+  <data name="_121" xml:space="preserve">
+    <value>ERROR : Invalid characters in received message!!!</value>
+  </data>
+  <data name="_120" xml:space="preserve">
+    <value>User aborted</value>
+  </data>
+  <data name="_123" xml:space="preserve">
+    <value>ERROR : Timeout in communication!!!</value>
+  </data>
+  <data name="_122" xml:space="preserve">
+    <value>ERROR : Checksum error in received message!!!</value>
+  </data>
+  <data name="_125" xml:space="preserve">
+    <value>ERROR : Unknown error : {0}!!!</value>
+  </data>
+  <data name="_124" xml:space="preserve">
+    <value>ERROR : Program error!!!</value>
+  </data>
+  <data name="_127" xml:space="preserve">
+    <value>Fatal Error occurred, the commandlist will be cleared, please try again. 
+
+Error : 
+</value>
+  </data>
+  <data name="_126" xml:space="preserve">
+    <value>Fatal Error: No free serial ports found!!!</value>
+  </data>
+  <data name="_138" xml:space="preserve">
+    <value>Club '{0}' with ID {1} could not be found anymore, ignoring the received data.</value>
+  </data>
+  <data name="_139" xml:space="preserve">
+    <value>Get Fancier old data : {0} with loft number {1}</value>
+  </data>
+  <data name="_130" xml:space="preserve">
+    <value>Could not update database</value>
+  </data>
+  <data name="_132" xml:space="preserve">
+    <value>Pincode for current club not correct.</value>
+  </data>
+  <data name="_133" xml:space="preserve">
+    <value>ELRing not correct {0}-{1}</value>
+  </data>
+  <data name="_134" xml:space="preserve">
+    <value>DBRing not correct {0}-{1}</value>
+  </data>
+  <data name="_135" xml:space="preserve">
+    <value>Get Ring with index {0}</value>
+  </data>
+  <data name="_136" xml:space="preserve">
+    <value>Fancier with ID {0} could not be found anymore, ignoring the received data and aborting getting the rings.</value>
+  </data>
+  <data name="_137" xml:space="preserve">
+    <value>Get ClubID and Pincode for '{0}'</value>
+  </data>
+  <data name="_109" xml:space="preserve">
+    <value>ERROR : No Fancier Data!!!</value>
+  </data>
+  <data name="_108" xml:space="preserve">
+    <value>Please select a record</value>
+  </data>
+  <data name="_103" xml:space="preserve">
+    <value>Activate Master</value>
+  </data>
+  <data name="_102" xml:space="preserve">
+    <value>Activate ETS</value>
+  </data>
+  <data name="_101" xml:space="preserve">
+    <value>Starting up...</value>
+  </data>
+  <data name="_100" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="_107" xml:space="preserve">
+    <value>Pincode not correct.</value>
+  </data>
+  <data name="_106" xml:space="preserve">
+    <value>ClubID not correct.</value>
+  </data>
+  <data name="_105" xml:space="preserve">
+    <value>Update database failed!</value>
+  </data>
+  <data name="_118" xml:space="preserve">
+    <value>ERROR : Unknown Command!!!</value>
+  </data>
+  <data name="_119" xml:space="preserve">
+    <value>ERROR : Communication error!!!</value>
+  </data>
+  <data name="_112" xml:space="preserve">
+    <value>No more records</value>
+  </data>
+  <data name="_113" xml:space="preserve">
+    <value>ERROR : No Pigeon Table!!!</value>
+  </data>
+  <data name="_110" xml:space="preserve">
+    <value>ERROR : Invalid Data Format!!!</value>
+  </data>
+  <data name="_111" xml:space="preserve">
+    <value>ERROR : Flight data not released!!!</value>
+  </data>
+  <data name="_116" xml:space="preserve">
+    <value>ERROR : Out of Range!!!</value>
+  </data>
+  <data name="_117" xml:space="preserve">
+    <value>ERROR : Invalid Pincode!!!</value>
+  </data>
+  <data name="_114" xml:space="preserve">
+    <value>OK </value>
+  </data>
+  <data name="_115" xml:space="preserve">
+    <value>ERROR : ELRing Already Present!!!</value>
+  </data>
+  <data name="_169" xml:space="preserve">
+    <value>Taiwan</value>
+  </data>
+  <data name="_168" xml:space="preserve">
+    <value>United Kingdom/Ireland</value>
+  </data>
+  <data name="_165" xml:space="preserve">
+    <value>Please restart the program to apply the new language</value>
+  </data>
+  <data name="_164" xml:space="preserve">
+    <value>The pending commands will be cleared with this action, do you want to continue?</value>
+  </data>
+  <data name="_167" xml:space="preserve">
+    <value>United States</value>
+  </data>
+  <data name="_166" xml:space="preserve">
+    <value>http://www.bricon.be</value>
+  </data>
+  <data name="_161" xml:space="preserve">
+    <value>France</value>
+  </data>
+  <data name="_160" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+  <data name="_163" xml:space="preserve">
+    <value>Database Files (*.mdb)|*.mdb|All files (*.*)|*.*</value>
+  </data>
+  <data name="_162" xml:space="preserve">
+    <value>Please restart the program to apply the new database location</value>
+  </data>
+  <data name="_178" xml:space="preserve">
+    <value>please set off automatic downloads on the optionspage
+
+</value>
+  </data>
+  <data name="_179" xml:space="preserve">
+    <value>Error : </value>
+  </data>
+  <data name="_174" xml:space="preserve">
+    <value>Send Ring {0} - {1} with index {2}</value>
+  </data>
+  <data name="_175" xml:space="preserve">
+    <value>Fatal error occurred when downloading a newer version,
+</value>
+  </data>
+  <data name="_177" xml:space="preserve">
+    <value>it will be retried next time you run the program, if these problems remain 
+</value>
+  </data>
+  <data name="_170" xml:space="preserve">
+    <value>Start sending rings</value>
+  </data>
+  <data name="_171" xml:space="preserve">
+    <value>Send Race '{0}'-'{1}' with index {2}</value>
+  </data>
+  <data name="_172" xml:space="preserve">
+    <value>Send SECOND Fancier {0} with loft number {1} and serial {2} to BA with serial {3}</value>
+  </data>
+  <data name="_173" xml:space="preserve">
+    <value>Send ClubID '{0}' or club {1}</value>
+  </data>
+  <data name="_149" xml:space="preserve">
+    <value>Automatic from Master</value>
+  </data>
+  <data name="_147" xml:space="preserve">
+    <value>There are still commands ready to send, are you sure you wish to quit?</value>
+  </data>
+  <data name="_146" xml:space="preserve">
+    <value>Error when opening the database, please check the database settings in the options page. Error: </value>
+  </data>
+  <data name="_145" xml:space="preserve">
+    <value>The country code is adjusted to the country code in the master.</value>
+  </data>
+  <data name="_144" xml:space="preserve">
+    <value>The language of this program is adjusted to the language in the master, please restart the program to see it!</value>
+  </data>
+  <data name="_143" xml:space="preserve">
+    <value>Get Language and Country codes</value>
+  </data>
+  <data name="_142" xml:space="preserve">
+    <value>Get Flight {0}</value>
+  </data>
+  <data name="_141" xml:space="preserve">
+    <value>Get Flight Count</value>
+  </data>
+  <data name="_140" xml:space="preserve">
+    <value>Fancier {0} with loft number {1} and ID {2} could not be found anymore, ignoring the received data.</value>
+  </data>
+  <data name="_158" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+  <data name="_159" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="_156" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="_157" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="_154" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="_155" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="_152" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="_153" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="_150" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="_151" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="_785" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="_784" xml:space="preserve">
+    <value>FCI-E</value>
+  </data>
+  <data name="_787" xml:space="preserve">
+    <value>Last Access</value>
+  </data>
+  <data name="_786" xml:space="preserve">
+    <value>Coord X</value>
+  </data>
+  <data name="_781" xml:space="preserve">
+    <value>FCI-AB</value>
+  </data>
+  <data name="_780" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_783" xml:space="preserve">
+    <value>FCI-E</value>
+  </data>
+  <data name="_782" xml:space="preserve">
+    <value>FCI-CD</value>
+  </data>
+  <data name="_788" xml:space="preserve">
+    <value>Club2</value>
+  </data>
+  <data name="_794" xml:space="preserve">
+    <value>Sel</value>
+  </data>
+  <data name="_795" xml:space="preserve">
+    <value>KWX</value>
+  </data>
+  <data name="_796" xml:space="preserve">
+    <value>KWY</value>
+  </data>
+  <data name="_797" xml:space="preserve">
+    <value>Coord Y</value>
+  </data>
+  <data name="_790" xml:space="preserve">
+    <value>Merge fancier</value>
+  </data>
+  <data name="_791" xml:space="preserve">
+    <value>The fanciers are merged to a new fancier : '</value>
+  </data>
+  <data name="_792" xml:space="preserve">
+    <value>Error occurred : </value>
+  </data>
+  <data name="_793" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_798" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_799" xml:space="preserve">
+    <value>Bankrekening</value>
+  </data>
+  <data name="_749" xml:space="preserve">
+    <value>Reading ring... Press &lt;ESC&gt; to stop</value>
+  </data>
+  <data name="_748" xml:space="preserve">
+    <value>Add ReadOut</value>
+  </data>
+  <data name="_741" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="_740" xml:space="preserve">
+    <value> : Olympiade</value>
+  </data>
+  <data name="_743" xml:space="preserve">
+    <value>Bulgarian</value>
+  </data>
+  <data name="_742" xml:space="preserve">
+    <value>Please press &lt;ESC&gt; to stop reading rings</value>
+  </data>
+  <data name="_745" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+  <data name="_744" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="_747" xml:space="preserve">
+    <value>Add ReadOut</value>
+  </data>
+  <data name="_746" xml:space="preserve">
+    <value>Ireland</value>
+  </data>
+  <data name="_758" xml:space="preserve">
+    <value>Select fancier to merge with {0}</value>
+  </data>
+  <data name="_759" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="_750" xml:space="preserve">
+    <value>Iraq</value>
+  </data>
+  <data name="_751" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_752" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_753" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="_754" xml:space="preserve">
+    <value>Two day race from:</value>
+  </data>
+  <data name="_755" xml:space="preserve">
+    <value>Merge Fanciers</value>
+  </data>
+  <data name="_756" xml:space="preserve">
+    <value>WinSpeed format</value>
+  </data>
+  <data name="_757" xml:space="preserve">
+    <value>Weeknumber:</value>
+  </data>
+  <data name="_769" xml:space="preserve">
+    <value>Read Ring</value>
+  </data>
+  <data name="_768" xml:space="preserve">
+    <value>Generate Rings</value>
+  </data>
+  <data name="_763" xml:space="preserve">
+    <value>Waiting for ClubMaster to send data...</value>
+  </data>
+  <data name="_762" xml:space="preserve">
+    <value>Select Comports to listen on</value>
+  </data>
+  <data name="_761" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="_760" xml:space="preserve">
+    <value>Club Printer</value>
+  </data>
+  <data name="_767" xml:space="preserve">
+    <value>Busy Loading Software Master</value>
+  </data>
+  <data name="_766" xml:space="preserve">
+    <value>Ring already linked with {0}</value>
+  </data>
+  <data name="_765" xml:space="preserve">
+    <value>Race Index:</value>
+  </data>
+  <data name="_764" xml:space="preserve">
+    <value>Print Setup</value>
+  </data>
+  <data name="_778" xml:space="preserve">
+    <value>Bankrekening</value>
+  </data>
+  <data name="_779" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_772" xml:space="preserve">
+    <value>Check Ring</value>
+  </data>
+  <data name="_773" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="_770" xml:space="preserve">
+    <value>Generate Rings</value>
+  </data>
+  <data name="_771" xml:space="preserve">
+    <value>Check Ring</value>
+  </data>
+  <data name="_776" xml:space="preserve">
+    <value>Ring already linked with {0}</value>
+  </data>
+  <data name="_777" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_774" xml:space="preserve">
+    <value>Club1:</value>
+  </data>
+  <data name="_775" xml:space="preserve">
+    <value>Club2:</value>
+  </data>
+  <data name="_709" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_708" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_705" xml:space="preserve">
+    <value>Print Flying Time instead of Clock Time</value>
+  </data>
+  <data name="_704" xml:space="preserve">
+    <value>Union:</value>
+  </data>
+  <data name="_707" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_706" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_701" xml:space="preserve">
+    <value>NEHU</value>
+  </data>
+  <data name="_700" xml:space="preserve">
+    <value>RPRA</value>
+  </data>
+  <data name="_703" xml:space="preserve">
+    <value>WHU</value>
+  </data>
+  <data name="_702" xml:space="preserve">
+    <value>NWHU</value>
+  </data>
+  <data name="_718" xml:space="preserve">
+    <value>DistanceString</value>
+  </data>
+  <data name="_719" xml:space="preserve">
+    <value>FCI</value>
+  </data>
+  <data name="_714" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_715" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_716" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_717" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_710" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_711" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_712" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_713" xml:space="preserve">
+    <value>Add new</value>
+  </data>
+  <data name="_729" xml:space="preserve">
+    <value>Bricon Club Editor</value>
+  </data>
+  <data name="_728" xml:space="preserve">
+    <value>This will delete all ring selected with the sel checkbox, are you sure?</value>
+  </data>
+  <data name="_726" xml:space="preserve">
+    <value>Send To Master</value>
+  </data>
+  <data name="_725" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_724" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_723" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_722" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_721" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_720" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="_738" xml:space="preserve">
+    <value> : Championship</value>
+  </data>
+  <data name="_739" xml:space="preserve">
+    <value> : Best Pigeons</value>
+  </data>
+  <data name="_736" xml:space="preserve">
+    <value> : Ace Pigeon</value>
+  </data>
+  <data name="_737" xml:space="preserve">
+    <value> : Super Ace</value>
+  </data>
+  <data name="_734" xml:space="preserve">
+    <value>Clock:</value>
+  </data>
+  <data name="_735" xml:space="preserve">
+    <value> : Prices/Fancier</value>
+  </data>
+  <data name="_732" xml:space="preserve">
+    <value>Team</value>
+  </data>
+  <data name="_733" xml:space="preserve">
+    <value>10/04/2008</value>
+  </data>
+  <data name="_730" xml:space="preserve">
+    <value>IHU</value>
+  </data>
+  <data name="_731" xml:space="preserve">
+    <value>Print TeamNbr Column</value>
+  </data>
+  <data name="_684" xml:space="preserve">
+    <value>2008</value>
+  </data>
+  <data name="_685" xml:space="preserve">
+    <value>2009</value>
+  </data>
+  <data name="_686" xml:space="preserve">
+    <value>2010</value>
+  </data>
+  <data name="_687" xml:space="preserve">
+    <value>2011</value>
+  </data>
+  <data name="_680" xml:space="preserve">
+    <value>Championships</value>
+  </data>
+  <data name="_681" xml:space="preserve">
+    <value>Championships</value>
+  </data>
+  <data name="_682" xml:space="preserve">
+    <value>Championships</value>
+  </data>
+  <data name="_683" xml:space="preserve">
+    <value>Number of best positions:</value>
+  </data>
+  <data name="_688" xml:space="preserve">
+    <value>2012</value>
+  </data>
+  <data name="_689" xml:space="preserve">
+    <value>2013</value>
+  </data>
+  <data name="_695" xml:space="preserve">
+    <value>Unicode</value>
+  </data>
+  <data name="_694" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="_697" xml:space="preserve">
+    <value>100,00</value>
+  </data>
+  <data name="_696" xml:space="preserve">
+    <value>Print FCI Custom Column</value>
+  </data>
+  <data name="_691" xml:space="preserve">
+    <value>Max Row Count</value>
+  </data>
+  <data name="_690" xml:space="preserve">
+    <value>    Query5</value>
+  </data>
+  <data name="_693" xml:space="preserve">
+    <value>Number of races:</value>
+  </data>
+  <data name="_692" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="_699" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="_698" xml:space="preserve">
+    <value>SHU</value>
+  </data>
+  <data name="_648" xml:space="preserve">
+    <value>Strike Out:</value>
+  </data>
+  <data name="_649" xml:space="preserve">
+    <value>Time Set:</value>
+  </data>
+  <data name="_640" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="_641" xml:space="preserve">
+    <value>FCI-AB</value>
+  </data>
+  <data name="_642" xml:space="preserve">
+    <value>FCI-CD</value>
+  </data>
+  <data name="_643" xml:space="preserve">
+    <value>FCI-E</value>
+  </data>
+  <data name="_644" xml:space="preserve">
+    <value>arrowright_green16.bmp</value>
+  </data>
+  <data name="_645" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="_646" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="_647" xml:space="preserve">
+    <value>Clock:</value>
+  </data>
+  <data name="_668" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="_669" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="_662" xml:space="preserve">
+    <value>Duplicate Fancier</value>
+  </data>
+  <data name="_663" xml:space="preserve">
+    <value>ClubID:</value>
+  </data>
+  <data name="_660" xml:space="preserve">
+    <value>' with license '</value>
+  </data>
+  <data name="_661" xml:space="preserve">
+    <value>' already in this ReadOut, do you wish to overwrite it?</value>
+  </data>
+  <data name="_666" xml:space="preserve">
+    <value>    Query5</value>
+  </data>
+  <data name="_667" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="_664" xml:space="preserve">
+    <value>Excel.bmp</value>
+  </data>
+  <data name="_665" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="_659" xml:space="preserve">
+    <value>Fancier '</value>
+  </data>
+  <data name="_658" xml:space="preserve">
+    <value>Race code may not contain a ' </value>
+  </data>
+  <data name="_651" xml:space="preserve">
+    <value>&lt;NONE&gt;</value>
+  </data>
+  <data name="_650" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="_653" xml:space="preserve">
+    <value>Calculation Module</value>
+  </data>
+  <data name="_652" xml:space="preserve">
+    <value>Serial Number:</value>
+  </data>
+  <data name="_655" xml:space="preserve">
+    <value>Fancier:</value>
+  </data>
+  <data name="_654" xml:space="preserve">
+    <value>Clear Input</value>
+  </data>
+  <data name="_657" xml:space="preserve">
+    <value>{0} Pigeon(s)</value>
+  </data>
+  <data name="_656" xml:space="preserve">
+    <value>{0} Fancier(s)</value>
+  </data>
+  <data name="_608" xml:space="preserve">
+    <value> : Distance is not filled in.</value>
+  </data>
+  <data name="_609" xml:space="preserve">
+    <value>Speed desc</value>
+  </data>
+  <data name="_604" xml:space="preserve">
+    <value>New calculation</value>
+  </data>
+  <data name="_605" xml:space="preserve">
+    <value>Please fill in a name</value>
+  </data>
+  <data name="_606" xml:space="preserve">
+    <value>Could not save the calculation.</value>
+  </data>
+  <data name="_607" xml:space="preserve">
+    <value>Error processing </value>
+  </data>
+  <data name="_600" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="_601" xml:space="preserve">
+    <value>Yards</value>
+  </data>
+  <data name="_602" xml:space="preserve">
+    <value>Miles</value>
+  </data>
+  <data name="_603" xml:space="preserve">
+    <value>Invalid ReadOut file '</value>
+  </data>
+  <data name="_679" xml:space="preserve">
+    <value>Slovakia</value>
+  </data>
+  <data name="_678" xml:space="preserve">
+    <value>Percentage:</value>
+  </data>
+  <data name="_673" xml:space="preserve">
+    <value>    Query3</value>
+  </data>
+  <data name="_672" xml:space="preserve">
+    <value>Number of positions (999 for all):</value>
+  </data>
+  <data name="_671" xml:space="preserve">
+    <value>    Query4</value>
+  </data>
+  <data name="_670" xml:space="preserve">
+    <value>                                                    </value>
+  </data>
+  <data name="_677" xml:space="preserve">
+    <value>                                                </value>
+  </data>
+  <data name="_676" xml:space="preserve">
+    <value>    Query1</value>
+  </data>
+  <data name="_675" xml:space="preserve">
+    <value>    Query2</value>
+  </data>
+  <data name="_674" xml:space="preserve">
+    <value>Minimum number of prices:</value>
+  </data>
+  <data name="_628" xml:space="preserve">
+    <value>Select a ReadOut Filename</value>
+  </data>
+  <data name="_629" xml:space="preserve">
+    <value>Calculation Print Settings</value>
+  </data>
+  <data name="_626" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="_627" xml:space="preserve">
+    <value>ReadOut Files(*.xml)|*.xml|All Files(*.*)|*.*</value>
+  </data>
+  <data name="_624" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+  <data name="_625" xml:space="preserve">
+    <value>Gulf States</value>
+  </data>
+  <data name="_622" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+  <data name="_623" xml:space="preserve">
+    <value>Lithuania</value>
+  </data>
+  <data name="_620" xml:space="preserve">
+    <value>Romanian</value>
+  </data>
+  <data name="_621" xml:space="preserve">
+    <value>Slovakia</value>
+  </data>
+  <data name="_619" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="_618" xml:space="preserve">
+    <value>Lithuanian</value>
+  </data>
+  <data name="_615" xml:space="preserve">
+    <value>Fancier not found</value>
+  </data>
+  <data name="_614" xml:space="preserve">
+    <value>Please select a Fancier</value>
+  </data>
+  <data name="_617" xml:space="preserve">
+    <value>Croatian</value>
+  </data>
+  <data name="_616" xml:space="preserve">
+    <value>Manual input added</value>
+  </data>
+  <data name="_611" xml:space="preserve">
+    <value>Please fill in the basketed count.</value>
+  </data>
+  <data name="_610" xml:space="preserve">
+    <value>No races in ETS</value>
+  </data>
+  <data name="_613" xml:space="preserve">
+    <value>Number of pigeons entered is not equal to basketed count, please correct it.</value>
+  </data>
+  <data name="_612" xml:space="preserve">
+    <value>Please fill in the distance.</value>
+  </data>
+  <data name="_639" xml:space="preserve">
+    <value>{0} Fanciers</value>
+  </data>
+  <data name="_638" xml:space="preserve">
+    <value>{0} Pigeons</value>
+  </data>
+  <data name="_637" xml:space="preserve">
+    <value>Totals</value>
+  </data>
+  <data name="_636" xml:space="preserve">
+    <value>Print Settings</value>
+  </data>
+  <data name="_635" xml:space="preserve">
+    <value>Print Percentage Column</value>
+  </data>
+  <data name="_634" xml:space="preserve">
+    <value>Print FCI-E Column</value>
+  </data>
+  <data name="_633" xml:space="preserve">
+    <value>Print FCI-CD Column</value>
+  </data>
+  <data name="_632" xml:space="preserve">
+    <value>Print FCI-AB Column</value>
+  </data>
+  <data name="_631" xml:space="preserve">
+    <value>Print Position Column</value>
+  </data>
+  <data name="_630" xml:space="preserve">
+    <value>Print ClubID Column</value>
+  </data>
+  <data name="_587" xml:space="preserve">
+    <value>ReadOut Time</value>
+  </data>
+  <data name="_586" xml:space="preserve">
+    <value>Basketing Time</value>
+  </data>
+  <data name="_585" xml:space="preserve">
+    <value>Flight</value>
+  </data>
+  <data name="_584" xml:space="preserve">
+    <value>Club</value>
+  </data>
+  <data name="_583" xml:space="preserve">
+    <value>Select Correct Race</value>
+  </data>
+  <data name="_582" xml:space="preserve">
+    <value>Existing ReadOuts:</value>
+  </data>
+  <data name="_581" xml:space="preserve">
+    <value>2008-04-10</value>
+  </data>
+  <data name="_580" xml:space="preserve">
+    <value>Prizes:</value>
+  </data>
+  <data name="_589" xml:space="preserve">
+    <value>No races with asked flight/club in ETS, select the correct one:</value>
+  </data>
+  <data name="_588" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="_596" xml:space="preserve">
+    <value>Velocity</value>
+  </data>
+  <data name="_597" xml:space="preserve">
+    <value>Activation Code:</value>
+  </data>
+  <data name="_594" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="_595" xml:space="preserve">
+    <value>CorrectedTime</value>
+  </data>
+  <data name="_592" xml:space="preserve">
+    <value>Difference:</value>
+  </data>
+  <data name="_593" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="_590" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="_591" xml:space="preserve">
+    <value>Ring</value>
+  </data>
+  <data name="_598" xml:space="preserve">
+    <value>Please fill in the distance.</value>
+  </data>
+  <data name="_599" xml:space="preserve">
+    <value>Km</value>
+  </data>
+  <data name="_569" xml:space="preserve">
+    <value>Pigeons</value>
+  </data>
+  <data name="_568" xml:space="preserve">
+    <value>Read Out Details</value>
+  </data>
+  <data name="_561" xml:space="preserve">
+    <value>Basketed</value>
+  </data>
+  <data name="_560" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_563" xml:space="preserve">
+    <value>Select a ReadOut file to add</value>
+  </data>
+  <data name="_562" xml:space="preserve">
+    <value>ReadOut Files(*.xml)|*.xml|All Files|*.*</value>
+  </data>
+  <data name="_565" xml:space="preserve">
+    <value>Pigeons Basketted:</value>
+  </data>
+  <data name="_564" xml:space="preserve">
+    <value>Manual Input Race Data</value>
+  </data>
+  <data name="_567" xml:space="preserve">
+    <value>Manual Input</value>
+  </data>
+  <data name="_566" xml:space="preserve">
+    <value>Distance:</value>
+  </data>
+  <data name="_578" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="_579" xml:space="preserve">
+    <value>Remarks:</value>
+  </data>
+  <data name="_570" xml:space="preserve">
+    <value>DistanceUnit</value>
+  </data>
+  <data name="_571" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_572" xml:space="preserve">
+    <value>Also print first pigeon/fancier</value>
+  </data>
+  <data name="_573" xml:space="preserve">
+    <value>__:__:__._</value>
+  </data>
+  <data name="_574" xml:space="preserve">
+    <value>212
+12
+22
+55
+</value>
+  </data>
+  <data name="_575" xml:space="preserve">
+    <value>212</value>
+  </data>
+  <data name="_576" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="_577" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="_549" xml:space="preserve">
+    <value>toolStrip2</value>
+  </data>
+  <data name="_548" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="_543" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="_542" xml:space="preserve">
+    <value>Add Calculation</value>
+  </data>
+  <data name="_541" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="_540" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="_547" xml:space="preserve">
+    <value>Calculations:</value>
+  </data>
+  <data name="_546" xml:space="preserve">
+    <value>2008-04-16 - Samenspel3</value>
+  </data>
+  <data name="_545" xml:space="preserve">
+    <value>2008-04-15 - Samenspel2</value>
+  </data>
+  <data name="_544" xml:space="preserve">
+    <value>2008-04-13 - Samenspel1</value>
+  </data>
+  <data name="_558" xml:space="preserve">
+    <value>RingNumber</value>
+  </data>
+  <data name="_559" xml:space="preserve">
+    <value>ClockingTime</value>
+  </data>
+  <data name="_552" xml:space="preserve">
+    <value>Liberation:</value>
+  </data>
+  <data name="_553" xml:space="preserve">
+    <value>Race:</value>
+  </data>
+  <data name="_550" xml:space="preserve">
+    <value>13:06:03</value>
+  </data>
+  <data name="_551" xml:space="preserve">
+    <value>2008-04-23</value>
+  </data>
+  <data name="_556" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="_557" xml:space="preserve">
+    <value>FancierName</value>
+  </data>
+  <data name="_554" xml:space="preserve">
+    <value>Club:</value>
+  </data>
+  <data name="_555" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="_529" xml:space="preserve">
+    <value>Connect PC cable to Master and PC</value>
+  </data>
+  <data name="_528" xml:space="preserve">
+    <value>Connect USB cable to Master and PC
+Connect Power to Master while pressing the OK button.
+Red light appears on the master, (continue pressing the OK button)</value>
+  </data>
+  <data name="_525" xml:space="preserve">
+    <value>Master Version Update</value>
+  </data>
+  <data name="_524" xml:space="preserve">
+    <value>Automatic Update failed, do you wish to load it manual?</value>
+  </data>
+  <data name="_527" xml:space="preserve">
+    <value>Manual Master Version Update</value>
+  </data>
+  <data name="_526" xml:space="preserve">
+    <value>Is the master connected over USB?</value>
+  </data>
+  <data name="_521" xml:space="preserve">
+    <value>.\AdminBackup.mdb</value>
+  </data>
+  <data name="_520" xml:space="preserve">
+    <value>c:\program files\adminclub\AdminBackup.mdb</value>
+  </data>
+  <data name="_523" xml:space="preserve">
+    <value>Please connect ETS first</value>
+  </data>
+  <data name="_522" xml:space="preserve">
+    <value>Not Active</value>
+  </data>
+  <data name="_538" xml:space="preserve">
+    <value>Enter Distance for fancier '{0}' and race {1}:</value>
+  </data>
+  <data name="_539" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_534" xml:space="preserve">
+    <value>Send Flight {0}: {1}</value>
+  </data>
+  <data name="_535" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="_536" xml:space="preserve">
+    <value>Greece</value>
+  </data>
+  <data name="_537" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="_530" xml:space="preserve">
+    <value>Please wait while holding the OK button pressed</value>
+  </data>
+  <data name="_531" xml:space="preserve">
+    <value>Release OK button on master and press OK button once!
+Loading will commence.</value>
+  </data>
+  <data name="_532" xml:space="preserve">
+    <value>Connect power to Master and loading will commence</value>
+  </data>
+  <data name="_533" xml:space="preserve">
+    <value>Start sending flights</value>
+  </data>
+  <data name="_509" xml:space="preserve">
+    <value>Diff</value>
+  </data>
+  <data name="_508" xml:space="preserve">
+    <value>ReadOutDiff</value>
+  </data>
+  <data name="_507" xml:space="preserve">
+    <value>ReadOutInternalTime</value>
+  </data>
+  <data name="_506" xml:space="preserve">
+    <value>ReadOutMasterTime</value>
+  </data>
+  <data name="_505" xml:space="preserve">
+    <value>BasketingDiff</value>
+  </data>
+  <data name="_504" xml:space="preserve">
+    <value>BasketingInternalTime</value>
+  </data>
+  <data name="_503" xml:space="preserve">
+    <value>BasketingMasterTime</value>
+  </data>
+  <data name="_502" xml:space="preserve">
+    <value>FancierID</value>
+  </data>
+  <data name="_501" xml:space="preserve">
+    <value>Hold ring in antenna, press &lt;C&gt; on master to stop</value>
+  </data>
+  <data name="_500" xml:space="preserve">
+    <value>Keep</value>
+  </data>
+  <data name="_518" xml:space="preserve">
+    <value>Calculator.bmp</value>
+  </data>
+  <data name="_519" xml:space="preserve">
+    <value>c:\admin\AdminBackup.mdb</value>
+  </data>
+  <data name="_516" xml:space="preserve">
+    <value>View Results</value>
+  </data>
+  <data name="_517" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="_514" xml:space="preserve">
+    <value>Manual Input</value>
+  </data>
+  <data name="_515" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="_512" xml:space="preserve">
+    <value>JA</value>
+  </data>
+  <data name="_513" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="_510" xml:space="preserve">
+    <value>Ring is empty</value>
+  </data>
+  <data name="_511" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="_486" xml:space="preserve">
+    <value>Previous Read Outs</value>
+  </data>
+  <data name="_487" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="_484" xml:space="preserve">
+    <value>Quick View</value>
+  </data>
+  <data name="_485" xml:space="preserve">
+    <value>New Read Out</value>
+  </data>
+  <data name="_482" xml:space="preserve">
+    <value>Used FileName:</value>
+  </data>
+  <data name="_483" xml:space="preserve">
+    <value>c:\ReadOuts\xxx.xml</value>
+  </data>
+  <data name="_480" xml:space="preserve">
+    <value>Read Out</value>
+  </data>
+  <data name="_481" xml:space="preserve">
+    <value>Select Location</value>
+  </data>
+  <data name="_488" xml:space="preserve">
+    <value>maandag 28 januari 2008</value>
+  </data>
+  <data name="_489" xml:space="preserve">
+    <value>Activate Antenna</value>
+  </data>
+  <data name="_468" xml:space="preserve">
+    <value>DBRing:</value>
+  </data>
+  <data name="_469" xml:space="preserve">
+    <value>Ring is correct and can be used</value>
+  </data>
+  <data name="_460" xml:space="preserve">
+    <value>Data In Ring</value>
+  </data>
+  <data name="_461" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_462" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_463" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_464" xml:space="preserve">
+    <value>ELRing:</value>
+  </data>
+  <data name="_465" xml:space="preserve">
+    <value>Data Found In BCE</value>
+  </data>
+  <data name="_466" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_467" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_497" xml:space="preserve">
+    <value>Send Fancier {0} with loft number {1} and serial {2} to BA with serial {3}</value>
+  </data>
+  <data name="_496" xml:space="preserve">
+    <value>Send THIRD Fancier {0} with loft number {1} and serial {2} to BA with serial {3}</value>
+  </data>
+  <data name="_495" xml:space="preserve">
+    <value>Get Timer with index {0}</value>
+  </data>
+  <data name="_494" xml:space="preserve">
+    <value>Get PigeonData with index {0}</value>
+  </data>
+  <data name="_493" xml:space="preserve">
+    <value>RaceID not correct</value>
+  </data>
+  <data name="_492" xml:space="preserve">
+    <value>No ring in antenna</value>
+  </data>
+  <data name="_491" xml:space="preserve">
+    <value>NOT Locked</value>
+  </data>
+  <data name="_490" xml:space="preserve">
+    <value>Check Ring for '{0}'</value>
+  </data>
+  <data name="_499" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="_498" xml:space="preserve">
+    <value>Not Found</value>
+  </data>
+  <data name="_448" xml:space="preserve">
+    <value>Print.bmp</value>
+  </data>
+  <data name="_449" xml:space="preserve">
+    <value>EditInformation.bmp</value>
+  </data>
+  <data name="_442" xml:space="preserve">
+    <value>Change Description</value>
+  </data>
+  <data name="_443" xml:space="preserve">
+    <value>Enter description:</value>
+  </data>
+  <data name="_440" xml:space="preserve">
+    <value>Please enter the code to allow you to change the country:</value>
+  </data>
+  <data name="_441" xml:space="preserve">
+    <value>Print Manager USB </value>
+  </data>
+  <data name="_446" xml:space="preserve">
+    <value>Help.bmp</value>
+  </data>
+  <data name="_447" xml:space="preserve">
+    <value>FromBA.bmp</value>
+  </data>
+  <data name="_444" xml:space="preserve">
+    <value>Properties.bmp</value>
+  </data>
+  <data name="_445" xml:space="preserve">
+    <value>CriticalError.bmp</value>
+  </data>
+  <data name="_479" xml:space="preserve">
+    <value>c:\ReadOuts</value>
+  </data>
+  <data name="_478" xml:space="preserve">
+    <value>Output Folder:</value>
+  </data>
+  <data name="_471" xml:space="preserve">
+    <value>Year is the same, you can't reuse this ring this year</value>
+  </data>
+  <data name="_470" xml:space="preserve">
+    <value>Delete existing Rings</value>
+  </data>
+  <data name="_473" xml:space="preserve">
+    <value>Loft number different from selected fancier</value>
+  </data>
+  <data name="_472" xml:space="preserve">
+    <value>Ring already linked with {0}</value>
+  </data>
+  <data name="_475" xml:space="preserve">
+    <value>Read Race Data</value>
+  </data>
+  <data name="_474" xml:space="preserve">
+    <value>but with wrong loft number, it will be deleted</value>
+  </data>
+  <data name="_477" xml:space="preserve">
+    <value>RaceID:</value>
+  </data>
+  <data name="_476" xml:space="preserve">
+    <value>Read Out Races</value>
+  </data>
+  <data name="_428" xml:space="preserve">
+    <value>FedBand</value>
+  </data>
+  <data name="_429" xml:space="preserve">
+    <value>RaceID</value>
+  </data>
+  <data name="_424" xml:space="preserve">
+    <value>CoordY</value>
+  </data>
+  <data name="_425" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="_426" xml:space="preserve">
+    <value>Fancier</value>
+  </data>
+  <data name="_427" xml:space="preserve">
+    <value>ElBand</value>
+  </data>
+  <data name="_420" xml:space="preserve">
+    <value>     Pigeons List</value>
+  </data>
+  <data name="_421" xml:space="preserve">
+    <value>     Clocking List</value>
+  </data>
+  <data name="_422" xml:space="preserve">
+    <value>ZipCode</value>
+  </data>
+  <data name="_423" xml:space="preserve">
+    <value>CoordX</value>
+  </data>
+  <data name="_459" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="_458" xml:space="preserve">
+    <value>Check Ring</value>
+  </data>
+  <data name="_453" xml:space="preserve">
+    <value>     About</value>
+  </data>
+  <data name="_452" xml:space="preserve">
+    <value>     Delete</value>
+  </data>
+  <data name="_451" xml:space="preserve">
+    <value>Delete.bmp</value>
+  </data>
+  <data name="_450" xml:space="preserve">
+    <value>     Description</value>
+  </data>
+  <data name="_457" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="_456" xml:space="preserve">
+    <value>Could not change description (probably duplicate file, invalid characters in description or read only)</value>
+  </data>
+  <data name="_455" xml:space="preserve">
+    <value>This will delete the selected ReadOut, are you sure?</value>
+  </data>
+  <data name="_454" xml:space="preserve">
+    <value>     Options</value>
+  </data>
+  <data name="_408" xml:space="preserve">
+    <value>id = </value>
+  </data>
+  <data name="_409" xml:space="preserve">
+    <value>Get Fancier Count</value>
+  </data>
+  <data name="_406" xml:space="preserve">
+    <value>Countrycode of downloaded versions not the same like in Master, aborting update</value>
+  </data>
+  <data name="_407" xml:space="preserve">
+    <value>Do you want to send {0} fanciers?</value>
+  </data>
+  <data name="_404" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="_405" xml:space="preserve">
+    <value>Select {0} fancier to send</value>
+  </data>
+  <data name="_402" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="_403" xml:space="preserve">
+    <value>Send to BA</value>
+  </data>
+  <data name="_400" xml:space="preserve">
+    <value>Laatste</value>
+  </data>
+  <data name="_401" xml:space="preserve">
+    <value>Serial</value>
+  </data>
+  <data name="_439" xml:space="preserve">
+    <value>Change Country</value>
+  </data>
+  <data name="_438" xml:space="preserve">
+    <value>Antenna without Master</value>
+  </data>
+  <data name="_435" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="_434" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="_437" xml:space="preserve">
+    <value>Timers</value>
+  </data>
+  <data name="_436" xml:space="preserve">
+    <value>Pigeons</value>
+  </data>
+  <data name="_431" xml:space="preserve">
+    <value>YL</value>
+  </data>
+  <data name="_430" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="_433" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="_432" xml:space="preserve">
+    <value>YB</value>
+  </data>
+  <data name="_419" xml:space="preserve">
+    <value>     Training List</value>
+  </data>
+  <data name="_418" xml:space="preserve">
+    <value>View Data</value>
+  </data>
+  <data name="_417" xml:space="preserve">
+    <value>     Overview List</value>
+  </data>
+  <data name="_416" xml:space="preserve">
+    <value>Please connect ETS...</value>
+  </data>
+  <data name="_415" xml:space="preserve">
+    <value>Send Races {0}</value>
+  </data>
+  <data name="_414" xml:space="preserve">
+    <value>SECOND</value>
+  </data>
+  <data name="_413" xml:space="preserve">
+    <value>THIRD</value>
+  </data>
+  <data name="_412" xml:space="preserve">
+    <value>Please select a fancier</value>
+  </data>
+  <data name="_411" xml:space="preserve">
+    <value>Fancier already choosen</value>
+  </data>
+  <data name="_410" xml:space="preserve">
+    <value>FIRST</value>
+  </data>
+</root>

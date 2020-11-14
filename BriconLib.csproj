@@ -1,0 +1,677 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Bricon\Print Manager\BriconLib.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{899B165C-EE43-4BE9-B41B-206CFDFB0D79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>BriconLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <ApplicationVersion>2020.5.6.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WinForms" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrintmanagerClient.cs" />
+    <Compile Include="IPrintmanagerChannel.cs" />
+    <Compile Include="IPrintmanager.cs" />
+    <Compile Include="TimeEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TimeCell.cs" />
+    <Compile Include="TimeColumn.cs" />
+    <Compile Include="CalendarEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CalendarCell.cs" />
+    <Compile Include="CalendarColumn.cs" />
+    <Compile Include="DirectPrint.cs" />
+    <Compile Include="HexEncoding.cs" />
+    <Compile Include="WebServer.cs" />
+    <Compile Include="FileIO.cs" />
+    <Compile Include="ArriveNotifierClient.cs" />
+    <Compile Include="IArriveNotifierChannel.cs" />
+    <Compile Include="IArriveNotifier.cs" />
+    <Compile Include="CoreLib\Helpers\NtpClient.cs" />
+    <Compile Include="CoreLib\ViewModels\CommandBase.cs" />
+    <Compile Include="CoreLib\ViewModels\RelayCommand.cs" />
+    <Compile Include="CoreLib\ViewModels\ViewModelBase.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\BalloonIcon.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\PopupActivationMode.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\RoutedEventHelper.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\TaskbarIcon.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Util.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\BalloonFlags.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\IconDataMembers.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\IconState.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\MouseEvent.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\NotifyCommand.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\NotifyIconData.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\NotifyIconVersion.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\Point.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\TrayInfo.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\AppBarInfo.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\WinApi.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\WindowProcedureHandler.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\WindowClass.cs" />
+    <Compile Include="CoreLib\UI\TaskbarNotification\Interop\WindowMessageSink.cs" />
+    <Compile Include="CoreLib\UI\Views\PasswordBoxBinding.cs" />
+    <Compile Include="CoreLib\UI\Views\UserControlBase.cs" />
+    <Compile Include="CoreLib\UI\Views\WindowBase.cs" />
+    <Compile Include="CoreLib\UI\Views\WindowView.cs" />
+    <Compile Include="CoreLib\UI\Views\PageView.cs" />
+    <Compile Include="CoreLib\UI\Views\UserControlView.cs" />
+    <Compile Include="CoreLib\UI\Converters\ImperialUnitsConverter.cs" />
+    <Compile Include="CoreLib\UI\Converters\SpeedConverter.cs" />
+    <Compile Include="CoreLib\UI\App\ApplicationHelper.cs" />
+    <Compile Include="ArriveNotifier\Views\CategoryArriveInfoControl.cs" />
+    <Compile Include="ArriveNotifier\Views\LevelArriveInfoControl.cs" />
+    <Compile Include="ArriveNotifier\Views\ErrorControl.cs" />
+    <Compile Include="ArriveNotifier\Views\FirstTimeUseControl.cs" />
+    <Compile Include="ArriveNotifier\Views\ShowRacesControl.cs" />
+    <Compile Include="ArriveNotifier\Core\ViewModel\ErrorViewModel.cs" />
+    <Compile Include="ArriveNotifier\Core\ViewModel\FirstTimeUseViewModel.cs" />
+    <Compile Include="ArriveNotifier\Core\ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="ArriveNotifier\Core\ViewModel\NavigationViewModel.cs" />
+    <Compile Include="ArriveNotifier\Core\ViewModel\ShowRacesViewModel.cs" />
+    <Compile Include="ArriveNotifier\Core\Models\ArriveNotifierModel.cs" />
+    <Compile Include="ArriveNotifier\Core\ArriveNotifierService\CreateDummyData.cs" />
+    <Compile Include="ArriveNotifier\WCFService\Data\ArriveNotifierResponse.cs" />
+    <Compile Include="ArriveNotifier\WCFService\Data\ArriveNotifierData.cs" />
+    <Compile Include="BriconLib\SoftwareVersionInfo.cs" />
+    <Compile Include="BriconLib\SoftwareDownloader.cs" />
+    <Compile Include="BriconLib\SoftwareUpdater.cs" />
+    <Compile Include="BriconLib\Win32\FileMap.cs" />
+    <Compile Include="BriconLib\Win32\StdHandle.cs" />
+    <Compile Include="BriconLib\Win32\ProtectionLevel.cs" />
+    <Compile Include="BriconLib\Win32\PeekMessageFlags.cs" />
+    <Compile Include="BriconLib\Win32\FlagsSetWindowPos.cs" />
+    <Compile Include="BriconLib\Win32\SetWindowPosZ.cs" />
+    <Compile Include="BriconLib\Win32\ShowWindowStyles.cs" />
+    <Compile Include="BriconLib\Win32\WindowStyles.cs" />
+    <Compile Include="BriconLib\Win32\WindowExStyles.cs" />
+    <Compile Include="BriconLib\Win32\VirtualKeys.cs" />
+    <Compile Include="BriconLib\Win32\Msgs.cs" />
+    <Compile Include="BriconLib\Win32\Cursors.cs" />
+    <Compile Include="BriconLib\Win32\TrackerEventFlags.cs" />
+    <Compile Include="BriconLib\Win32\MouseActivateFlags.cs" />
+    <Compile Include="BriconLib\Win32\DialogCodes.cs" />
+    <Compile Include="BriconLib\Win32\UpdateLayeredWindowsFlags.cs" />
+    <Compile Include="BriconLib\Win32\AlphaFlags.cs" />
+    <Compile Include="BriconLib\Win32\RasterOperations.cs" />
+    <Compile Include="BriconLib\Win32\BrushStyles.cs" />
+    <Compile Include="BriconLib\Win32\HatchStyles.cs" />
+    <Compile Include="BriconLib\Win32\CombineFlags.cs" />
+    <Compile Include="BriconLib\Win32\HitTest.cs" />
+    <Compile Include="BriconLib\Win32\SystemParametersInfoActions.cs" />
+    <Compile Include="BriconLib\Win32\FlagsAnimateWindow.cs" />
+    <Compile Include="BriconLib\Win32\FlagsDCX.cs" />
+    <Compile Include="BriconLib\Win32\Gdi32.cs" />
+    <Compile Include="BriconLib\Win32\Kernel32.cs" />
+    <Compile Include="BriconLib\Win32\MSG.cs" />
+    <Compile Include="BriconLib\Win32\RECT.cs" />
+    <Compile Include="BriconLib\Win32\POINT.cs" />
+    <Compile Include="BriconLib\Win32\SIZE.cs" />
+    <Compile Include="BriconLib\Win32\BLENDFUNCTION.cs" />
+    <Compile Include="BriconLib\Win32\TRACKMOUSEEVENTS.cs" />
+    <Compile Include="BriconLib\Win32\LOGBRUSH.cs" />
+    <Compile Include="BriconLib\Win32\NCCALCSIZE_PARAMS.cs" />
+    <Compile Include="BriconLib\Win32\User32.cs" />
+    <Compile Include="BriconLib\BCE\ClubsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\FlightsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\FancierPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\FanciersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\OptionsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\BCE\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\Updater\FancierUpdater.cs" />
+    <Compile Include="BriconLib\Updater\MasterUpdater.cs" />
+    <Compile Include="BriconLib\Updater\PrerequisitesInstall.cs" />
+    <Compile Include="BriconLib\Updater\UpdateCheckingThread.cs" />
+    <Compile Include="BriconLib\Updater\XtremeLoaderBCE.cs" />
+    <Compile Include="BriconLib\Updater\XtremeLoader.cs" />
+    <Compile Include="BriconLib\UI\AboutPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\AdvancedMailSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\AskDistanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\CalculationPrintSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\CalculatorPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\ChampionshipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\CheckRingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\ClubPrinterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\CommunicationsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\CheckRingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\FlightDistanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\LoadingXtreme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\MergeFanciersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\FlightReadoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\LoadingMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\GenerateRingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\LoadMasterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\ManualInputFlightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\PASPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\PasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\PincodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\SelectRaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\UI\SendMultipleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\Sounds\SoundManager.cs" />
+    <Compile Include="BriconLib\Properties\Resources.cs" />
+    <Compile Include="BriconLib\Properties\Settings.cs" />
+    <Compile Include="BriconLib\Annotations\CanBeNullAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\NotNullAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ItemNotNullAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ItemCanBeNullAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\StringFormatMethodAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ValueProviderAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\InvokerParameterNameAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\NotifyPropertyChangedInvocatorAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ContractAnnotationAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\LocalizationRequiredAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\CannotApplyEqualityOperatorAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\BaseTypeRequiredAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\UsedImplicitlyAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\MeansImplicitUseAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ImplicitUseKindFlags.cs" />
+    <Compile Include="BriconLib\Annotations\ImplicitUseTargetFlags.cs" />
+    <Compile Include="BriconLib\Annotations\PublicAPIAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\InstantHandleAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\PureAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\MustUseReturnValueAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\ProvidesContextAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\PathReferenceAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\SourceTemplateAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\MacroAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcAreaMasterLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcAreaPartialViewLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcAreaViewLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcMasterLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcPartialViewLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcViewLocationFormatAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcActionAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcAreaAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcControllerAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcMasterAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcModelTypeAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcPartialViewAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcSuppressViewErrorAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcDisplayTemplateAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcEditorTemplateAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcTemplateAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcViewAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcViewComponentAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcViewComponentViewAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMvcActionSelectorAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\HtmlElementAttributesAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\HtmlAttributeValueAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorSectionAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\CollectionAccessAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\CollectionAccessType.cs" />
+    <Compile Include="BriconLib\Annotations\AssertionMethodAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AssertionConditionAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AssertionConditionType.cs" />
+    <Compile Include="BriconLib\Annotations\TerminatesProgramAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\LinqTunnelAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\NoEnumerationAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RegexPatternAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\NoReorderAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\XamlItemsControlAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\XamlItemBindingOfItemsControlAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspChildControlTypeAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspDataFieldAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspDataFieldsAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspMethodPropertyAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspRequiredAttributeAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\AspTypePropertyAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorImportNamespaceAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorInjectionAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorDirectiveAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorPageBaseTypeAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorHelperCommonAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorLayoutAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorWriteLiteralMethodAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorWriteMethodAttribute.cs" />
+    <Compile Include="BriconLib\Annotations\RazorWriteMethodParameterAttribute.cs" />
+    <Compile Include="BriconLib\Printmanager\MainFormPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\Printmanager\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\AskGummyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\BetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\CommunicationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\AskWingmarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\TestXtreme.cs" />
+    <Compile Include="BriconLib\PrintManager\PoulLetter.cs" />
+    <Compile Include="BriconLib\PrintManager\EmailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\DescriptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\FancierReadOut.cs" />
+    <Compile Include="BriconLib\PrintManager\MonitorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\MonitorOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\PrintHelper.cs" />
+    <Compile Include="BriconLib\PrintManager\ReadOutDataSet.cs" />
+    <Compile Include="BriconLib\PrintManager\ViewDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\PrintManager\ViewMonitorDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\Printing\PrintHelper.cs" />
+    <Compile Include="BriconLib\Printing\PrintPreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BriconLib\Translations\ml.cs" />
+    <Compile Include="BriconLib\ml_resources\MultiLang.cs" />
+    <Compile Include="BriconLib\Monitor\MessageReceivedEventHandler.cs" />
+    <Compile Include="BriconLib\Monitor\NetworkMessaging.cs" />
+    <Compile Include="BriconLib\Monitor\Command.cs" />
+    <Compile Include="BriconLib\Monitor\CommandFactory.cs" />
+    <Compile Include="BriconLib\Monitor\RaceCommand.cs" />
+    <Compile Include="BriconLib\Monitor\FancierCommand.cs" />
+    <Compile Include="BriconLib\Monitor\PigeonCommand.cs" />
+    <Compile Include="BriconLib\Monitor\RaceDataSaver.cs" />
+    <Compile Include="BriconLib\Monitor\RaceNameResolver.cs" />
+    <Compile Include="BriconLib\Monitor\RespondCommand.cs" />
+    <Compile Include="BriconLib\Monitor\StatusCommand.cs" />
+    <Compile Include="BriconLib\Data\BCEDataSet.cs" />
+    <Compile Include="BriconLib\Data\CalculationDataSet.cs" />
+    <Compile Include="BriconLib\Data\ChampignonShip.cs" />
+    <Compile Include="BriconLib\Data\FlightCalenderHU.cs" />
+    <Compile Include="BriconLib\Data\FlightCalenderUK.cs" />
+    <Compile Include="BriconLib\Data\FlightCalenderBelgium.cs" />
+    <Compile Include="BriconLib\Data\ManualReadOut.cs" />
+    <Compile Include="BriconLib\Data\ClubPrinterDataSet.cs" />
+    <Compile Include="BriconLib\Data\MonitorDataSet.cs" />
+    <Compile Include="BriconLib\Data\Upload95Importer.cs" />
+    <Compile Include="BriconLib\Data\BCEDatabase.cs" />
+    <Compile Include="BriconLib\Data\DatabaseFinder.cs" />
+    <Compile Include="BriconLib\Data\DatabaseUpdater.cs" />
+    <Compile Include="BriconLib\BriconWeb\BriconWebHelper.cs" />
+    <Compile Include="BriconLib\Basket\BasketWindow.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\ReadOutViewModel.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\ReadOutWindow.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\ReadOutProcess.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\PAS\ReadOutService.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\PAS\PostReadOutModel.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\StartReadOutFancierCommand.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\FinishReadOutFancierCommand.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\StartReadOutFancierResponse.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\ReadOutPigeonCommand.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\ReadOutCommand.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\ReadOutPigeonResponse.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\Commands\ReadOutResponse.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\CommandHandling\FinishReadOutFancierHandling.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\CommandHandling\ReadOutPigeonHandling.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\CommandHandling\ReadOutHandling.cs" />
+    <Compile Include="BriconLib\PAS\ReadOut\CommandHandling\StartReadOutFancierHandling.cs" />
+    <Compile Include="BriconLib\PAS\Shared\ApiResponseModel.cs" />
+    <Compile Include="BriconLib\PAS\Shared\ApiResponseModel`1.cs" />
+    <Compile Include="BriconLib\PAS\Shared\LogWindowHelper.cs" />
+    <Compile Include="BriconLib\PAS\Shared\PasRestApiHelper.cs" />
+    <Compile Include="BriconLib\PAS\Shared\Commands\ResponseWithOptionalMessage.cs" />
+    <Compile Include="BriconLib\PAS\Shared\Commands\Command.cs" />
+    <Compile Include="BriconLib\PAS\Shared\Commands\CommandFactory.cs" />
+    <Compile Include="BriconLib\PAS\Shared\Commands\Response.cs" />
+    <Compile Include="BriconLib\PAS\Shared\CommandHandling\CommandHandling.cs" />
+    <Compile Include="BriconLib\PAS\ManualPigeons\ManualPigeonsService.cs" />
+    <Compile Include="BriconLib\PAS\BceDatabase\BceDatabaseService.cs" />
+    <Compile Include="BriconLib\PAS\BceDatabase\PasDataLoader.cs" />
+    <Compile Include="BriconLib\PAS\BceDatabase\PasDataTester.cs" />
+    <Compile Include="BriconLib\PAS\BceDatabase\PasDataSaver.cs" />
+    <Compile Include="BriconLib\PAS\Basket\BasketCommunicationLoop.cs" />
+    <Compile Include="BriconLib\PAS\Basket\BasketProcess.cs" />
+    <Compile Include="BriconLib\PAS\Basket\BasketViewModel.cs" />
+    <Compile Include="BriconLib\PAS\Basket\GetRacesService.cs" />
+    <Compile Include="BriconLib\PAS\Basket\BasketContext.cs" />
+    <Compile Include="BriconLib\PAS\Basket\StartBasketWindow.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\CancelPigeonCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\CancelPigeonResponse.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\EmergencyLinkCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\BasketPigeonCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\EmergencyLinkResponse.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\FinishBasketFancierCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\StartBasketFancierCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\GetFlightCommand.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\BasketPigeonResponse.cs" />
+    <Compile Include="BriconLib\PAS\Basket\Commands\GetFlightResponse.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\CreateRingModel.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\GetBasketParameters.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\PostBasketModel.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\CreateRingService.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\PostBasketService.cs" />
+    <Compile Include="BriconLib\PAS\Basket\PAS\GetBasketService.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\CancelPigeonHandling.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\EmergencyLinkHandling.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\BasketPigeonHandling.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\FinishBasketFancierHandling.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\StartBasketFancierHandling.cs" />
+    <Compile Include="BriconLib\PAS\Basket\CommandHandling\GetFlightHandling.cs" />
+    <Compile Include="BriconLib\Other\OveralPointsCalculator.cs" />
+    <Compile Include="BriconLib\Other\Conversion.cs" />
+    <Compile Include="BriconLib\Other\AllFlightsReadOut.cs" />
+    <Compile Include="BriconLib\Other\EmailHelper.cs" />
+    <Compile Include="BriconLib\Other\ImportDistancesFromFile.cs" />
+    <Compile Include="BriconLib\Other\ReadoutUploader.cs" />
+    <Compile Include="BriconLib\Other\SendBCEData.cs" />
+    <Compile Include="BriconLib\Other\SendPoulLetter.cs" />
+    <Compile Include="BriconLib\Other\Defines.cs" />
+    <Compile Include="BriconLib\Other\DistanceCalculator.cs" />
+    <Compile Include="BriconLib\Other\FlightsReadOut.cs" />
+    <Compile Include="BriconLib\Other\MessageDisplayer.cs" />
+    <Compile Include="BriconLib\Other\Utils.cs" />
+    <Compile Include="BriconLib\Other\Validation.cs" />
+    <Compile Include="BriconLib\KBDB\SendBceDataToKbdb.cs" />
+    <Compile Include="BriconLib\Communications\StartTempReadoutCommand.cs" />
+    <Compile Include="BriconLib\Communications\StartReadoutCommand.cs" />
+    <Compile Include="BriconLib\Communications\StartBasketCommand.cs" />
+    <Compile Include="BriconLib\Communications\CheckRingCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendDesignatedCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetFlightNamesCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendBetDataCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendSecSyncCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendFlightNamesCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetTimerCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetPigeonCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetFancierCountCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendUpdateFileCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendVersionInfoCommand.cs" />
+    <Compile Include="BriconLib\Communications\SearchMasterCommand.cs" />
+    <Compile Include="BriconLib\Communications\ResetMasterCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetBandTableCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendBandTableCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetFancierCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendFancierCommand.cs" />
+    <Compile Include="BriconLib\Communications\ReadRingCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendFlightCommand.cs" />
+    <Compile Include="BriconLib\Communications\SendClubIDAndPincodeCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetClubIDAndPincodeCommand.cs" />
+    <Compile Include="BriconLib\Communications\GetLanguageAndCountryCommand.cs" />
+    <Compile Include="BriconLib\Communications\ActivateBACommand.cs" />
+    <Compile Include="BriconLib\Communications\ActivateMasterCommand.cs" />
+    <Compile Include="BriconLib\Communications\Command.cs" />
+    <Compile Include="BriconLib\Communications\Communication.cs" />
+    <Compile Include="BriconLib\Communications\CommunicationPool.cs" />
+    <Compile Include="BriconLib\Communications\CommunicationState.cs" />
+    <Compile Include="BriconLib\Communications\ResponseStatus.cs" />
+    <Compile Include="BriconLib\Communications\Adresses.cs" />
+    <Compile Include="BriconLib\Communications\Response.cs" />
+    <Compile Include="MultiLanguageMarkup\LangExtension.cs" />
+    <Compile Include="PAS\Admin\Bce\ManualPigeons\ManualPigeonsRequest.cs" />
+    <Compile Include="PAS\Admin\Bce\ManualPigeons\ManualPigeonsResponse.cs" />
+    <Compile Include="PAS\Bce\Basket\GetBasketModel.cs" />
+    <Compile Include="PAS\ApplicationCore\Enums\Category.cs" />
+    <Compile Include="MultiLang\ml.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="ArriveNotifier\UI\ViewsMainWindow.xaml.cs">
+      <DependentUpon>viewsmainwindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Air_Raid_21secs" />
+    <Resource Include="Alarm_Short_Beeps_4secs" />
+    <Resource Include="arrivenotifier\ui\images\app.ico" />
+    <Resource Include="Boxing_Bell_1sec" />
+    <Resource Include="Boxing_Multiple_Bell_3secs" />
+    <Resource Include="Buzzer_2secs" />
+    <Resource Include="Buzzer_3_Times_2secs" />
+    <Resource Include="Horn_1sec" />
+    <Resource Include="Whistle_Shrill_1sec" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BriconLib\BCE\ClubsPage.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\FancierPage.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\FanciersPage.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\FlightsPage.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\MainForm.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\OptionsPage.resx" />
+    <EmbeddedResource Include="BriconLib\BCE\SplashForm.resx" />
+    <EmbeddedResource Include="BriconLib\MultiLang.resx" />
+    <EmbeddedResource Include="BriconLib\Printing\BasketingListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\BasketingListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\CalculationAR.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\CalculationEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\CalculationHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\CalculationJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\ChampignonChipGR.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\ChampignonChipHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\FancierDetailUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\PrintPreviewForm.resx" />
+    <EmbeddedResource Include="BriconLib\Printing\ReadOutListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\ReadOutListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printing\ReadOutListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\AskGummyForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\AskWingmarkForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\BetForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\CommunicationForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\DescriptionForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\EmailForm.resx" />
+    <EmbeddedResource Include="BriconLib\Printmanager\MainFormPM.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\MonitorForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\MonitorOptionsForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\OptionsForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\BasketingListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\DesignatedListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\DesignatedListNL-BE.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\MonitorListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\OverViewListUK_old.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PigeonListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\PoulletterNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListEN.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListFR.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListHU.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListJA.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListNL.rdlc" />
+    <EmbeddedResource Include="BriconLib\PrintManager\Reports\TrainingListUK.rdlc" />
+    <EmbeddedResource Include="BriconLib\Printmanager\SplashForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\ViewDataForm.resx" />
+    <EmbeddedResource Include="BriconLib\PrintManager\ViewMonitorDataForm.resx" />
+    <EmbeddedResource Include="BriconLib\Properties\Resources.resx" />
+    <EmbeddedResource Include="BriconLib\UI\AboutPage.resx" />
+    <EmbeddedResource Include="BriconLib\UI\AdvancedMailSettingsForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\AskDistanceForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\CalculationPrintSettingsForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\CalculatorPage.resx" />
+    <EmbeddedResource Include="BriconLib\UI\ChampionshipForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\CheckRingForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\CheckRingsForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\ClubPrinterForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\CommunicationsPanel.resx" />
+    <EmbeddedResource Include="BriconLib\UI\FlightDistanceForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\FlightReadoutForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\GenerateRingsForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\LoadingMasterForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\LoadingXtreme.resx" />
+    <EmbeddedResource Include="BriconLib\UI\LoadMasterForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\ManualInputFlightForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\MergeFanciersForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\PASPage.resx" />
+    <EmbeddedResource Include="BriconLib\UI\PasswordForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\PincodeForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\SelectRaceForm.resx" />
+    <EmbeddedResource Include="BriconLib\UI\SendMultipleForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="arrivenotifier\ui\views\categoryarriveinfocontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="arrivenotifier\ui\views\errorcontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="arrivenotifier\ui\views\firsttimeusecontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="arrivenotifier\ui\views\levelarriveinfocontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="arrivenotifier\ui\views\mainwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="arrivenotifier\ui\views\showracescontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pas\basket\basketwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pas\basket\startbasketwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pas\readout\readoutwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

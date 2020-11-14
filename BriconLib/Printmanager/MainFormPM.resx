@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonAbout.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonDelete.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonArriveNotifier.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="buttonReadOut.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonOptions.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;buttonBetMoney.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonDelete.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonTraining.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonSendToBC.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonReadOut.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonTraining.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAADYOAAACAAABAAIAICAAAAAACACoCAAAJgAAABAQAAAAAAgAaAUAAM4IAAAoAAAAIAAAAEAAAAABAAgAAAAAAAAEAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPMzAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvPy8fLzCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvCSbRJDEBAQEBARFRPr7/QKCgoKCgoKCgoKCgoK9O0UEBAQEBAQEBAQEBAQERARFfEKCgoKCgoKCgoKCvMTEBAQQ0MQEBAQEBARQ0p0SksQ7woKCgoKCgoKCgoK7RAQEBV0mpkUEBAQEBWZdJp6FBPzCgoKCgoKCgoKCgoHERAQS5qamksQEBAQEG50dBy8CgoKCgoKCgoKCgoKCgrykm1uc0p0Evfv95LtkhRL7AcHB7wKCgoKCgoKCgoKCgoKCgoK70tE6+rs7wfxS0tt7JL36xTxCgoKCgry8fH0CgoKCgrwFOoH9PT0//9zSvH09PT0bewKCgr08fLw8fG89AoK7BMH9PT0//////Pz////9PFt7woKCvS8rpHskvC89G3r8/T///+87Orq6+vs8PMVEe8KCgoK9rXtvO+SkfLr7PT0//8HE+rv8vT/vBTv//Tt6goKCgr0tQfv7wfv8RT09PT/7xW89PT////ybfDvE23sCgoKCvMHB+/vvAe87P/0//8VB/T/////8uzv8vMH6usKCvAU7O/v7+8JvPfs////8kP0///////w6+3y7+3s7ArxFezv8/HwvLzxkuv////0EfL/////khPwCgoKCgoKCm0H7exzeJkI8vTxFfT////sEwf/8hLs9AoKCgoKCgoKFP/3SlBQUFBz8rzv8f/////y7+8SvAoKCgoKCgoKCgoT//QUkhxzc5L09+z////////vE/IKCgoKCgoKCgoKCm3y//fs9vb08/b/E///////vBLzCgoKCgoKCgoKCgoKvOz/6/D29vb2//Bt9v/////y9AoKCgoKCgoKCgoKCgoK7QeS9AoKCgrwFFEH//////T0CgoKCgoKCgoKCgoKCgoK7PQKCgoKCm1LdLwH7///bZIKCgoKCgoKCgoKCgoKCgoKCgoKCgoK9O8S/+/37wfr8QoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK8hUUFRNumW4HCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvMSHJkcEm6ZHBW8CgoKCgoKCgoKCgoKCgoKCgoKCgoKCpLtE22THJkabfAKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvATbUNzGuzvCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKvBJzmRxtvAoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr0Eupt7woKCgoKCgoKCgoKCgoKCgr/////////////g///8AAP/4AAB/8AAAf/AAAH/wAAH/+AAAP//AAA+HwAAOAYAADgAAAB4AAAAeAAAAHgAAABgAAAAQAAAH8AAAD/AAAD/wAAB/8AAA//AAAf/4eAH//PgB///4Af///AH///gA///8AP///gH///4D///+D//ygAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK8/HzCgoKCgoKCgoK9BQQEBAQEBAQFQoKCgoKChAQdJkQEBV0ehMKCgoKCgrybXN09/ftFOwHvAoKCvLx////FAf0/3Px9PTsCvSu7PD06/T/vOrr7PMRCgr0B+/vFPT/FfT//23vbQrw7O/vvOz/8vT///Dt7+wKB+x4CPQV//8T/xL0CgoKCv8UHHP07P///xMKCgoKCgrs6/b2/23///IKCgoKCgoKCvQKCm10B/9tCgoKCgoKCgoKCgoKFRVubgoKCgoKCgoKCgoKCu1tHBrwCgoKCgoKCgoKCgq8cxy8CgoKCgoKCv//AAD/HwAA8AMAAPADAADwAQAAwAAAAIABAACAAQAAAAEAAAAPAAAAPwAAAH8AALB/AAD4fwAA+D8AAPh/AAAL</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Print Manager USB </value>
+  </data>
+  <data name="buttonBasketingList.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonOptions.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonTraining.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonName.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF4AAAAXAAAACw==</value>
+  </data>
+  <data name="buttonName.Text" xml:space="preserve">
+    <value>     Description</value>
+  </data>
+  <data name="&gt;&gt;buttonViewData.Name" xml:space="preserve">
+    <value>buttonViewData</value>
+  </data>
+  <data name="&gt;&gt;buttonViewData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonReadOut.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button1.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonMonitor.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAAHwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonSendToBC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTraining.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAHQEAAAs=</value>
+  </data>
+  <data name="buttonOverViewList.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonArriveNotifier.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonBetMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Name" xml:space="preserve">
+    <value>buttonOptions</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFcCAACRAgAACw==</value>
+  </data>
+  <data name="buttonDelete.Text" xml:space="preserve">
+    <value>     Delete</value>
+  </data>
+  <data name="buttonDelete.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAF4AAAAXAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonReadOut.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="buttonMonitor.ImageKey" xml:space="preserve">
+    <value>AutoLoad.bmp</value>
+  </data>
+  <data name="listView1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABDAAAAjQAAAAs=</value>
+  </data>
+  <data name="buttonName.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonOverViewList.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonMonitor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonAbout.ImageKey" xml:space="preserve">
+    <value>Help.bmp</value>
+  </data>
+  <data name="&gt;&gt;buttonName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonArriveNotifier.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAAVgAAAAs=</value>
+  </data>
+  <data name="buttonBasketingList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonBasketingList.Text" xml:space="preserve">
+    <value>     Clocking List</value>
+  </data>
+  <data name="buttonBasketingList.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAXAAAACw==</value>
+  </data>
+  <data name="listView1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPgAAADhAAAACw==</value>
+  </data>
+  <data name="buttonBetMoney.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="listView1.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0HAAAABFRleHQKSW1hZ2VJbmRleAlCYWNrQ29sb3IHQ2hlY2tlZARGb250CUZvcmVDb2xvchdVc2VJdGVtU3R5bGVGb3JTdWJJdGVtcwEABAAEBAAIFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAETU3lzdGVtLkRyYXdpbmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIAAAAGBAAAAAoyMDA3LTA1LTI1/////wX7////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAACQYAAAAB+f////v///8KAAAAAAAAAAAaAAEAAQUGAAAAE1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYIAAAAFE1pY3Jvc29mdCBTYW5zIFNlcmlmAAAEQQX3////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF9v///xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonMonitor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMonitor.Name" xml:space="preserve">
+    <value>buttonMonitor</value>
+  </data>
+  <data name="buttonSendToBC.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAXAAAACw==</value>
+  </data>
+  <data name="buttonSendToBC.Text" xml:space="preserve">
+    <value>     Send to BRICON Cloud</value>
+  </data>
+  <data name="buttonPigeonsList.ImageKey" xml:space="preserve">
+    <value>Print.bmp</value>
+  </data>
+  <data name="&gt;&gt;buttonReadOut.Name" xml:space="preserve">
+    <value>buttonReadOut</value>
+  </data>
+  <data name="&gt;&gt;buttonReadOut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="buttonMonitor.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonName.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABfAAAAdAEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonName.Name" xml:space="preserve">
+    <value>buttonName</value>
+  </data>
+  <data name="buttonReadOut.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAABEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonReadOut.Text" xml:space="preserve">
+    <value>    Read Out</value>
+  </data>
+  <data name="buttonReadOut.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAxAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="buttonExit.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAA2gEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonExit.Name" xml:space="preserve">
+    <value>buttonExit</value>
+  </data>
+  <data name="buttonOverViewList.ImageKey" xml:space="preserve">
+    <value>Print.bmp</value>
+  </data>
+  <data name="buttonOptions.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAApQEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonViewData.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonExit.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonPigeonsList.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonArriveNotifier.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonPigeonsList.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAUQEAAAs=</value>
+  </data>
+  <data name="buttonTraining.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonBetMoney.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAAjgAAAAs=</value>
+  </data>
+  <data name="button1.ImageKey" xml:space="preserve">
+    <value>AutoLoad.bmp</value>
+  </data>
+  <data name="buttonBetMoney.ImageKey" xml:space="preserve">
+    <value>EditInformation.bmp</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonDelete.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonSendToBC.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonReadOut.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAAzAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonBetMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonBetMoney.Name" xml:space="preserve">
+    <value>buttonBetMoney</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAbout.Name" xml:space="preserve">
+    <value>buttonAbout</value>
+  </data>
+  <data name="&gt;&gt;buttonPigeonsList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonPigeonsList.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonPigeonsList.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonViewData.Text" xml:space="preserve">
+    <value>View Data</value>
+  </data>
+  <data name="buttonViewData.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGMAAAAXAAAACw==</value>
+  </data>
+  <data name="buttonExit.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonReadOut.ImageKey" xml:space="preserve">
+    <value>FromBA.bmp</value>
+  </data>
+  <data name="buttonSendToBC.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonDelete.ImageKey" xml:space="preserve">
+    <value>Delete.bmp</value>
+  </data>
+  <data name="buttonExit.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="button1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAABzAQAAiQEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Name" xml:space="preserve">
+    <value>buttonDelete</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonOverViewList.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAAwEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonExit.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="buttonBasketingList.ImageKey" xml:space="preserve">
+    <value>Print.bmp</value>
+  </data>
+  <data name="buttonOptions.Text" xml:space="preserve">
+    <value>     Options</value>
+  </data>
+  <data name="buttonOptions.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKgAAAAXAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonTraining.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonTraining.Name" xml:space="preserve">
+    <value>buttonTraining</value>
+  </data>
+  <data name="&gt;&gt;buttonPigeonsList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPigeonsList.Name" xml:space="preserve">
+    <value>buttonPigeonsList</value>
+  </data>
+  <data name="buttonArriveNotifier.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAABEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonArriveNotifier.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAxAAAACw==</value>
+  </data>
+  <data name="buttonArriveNotifier.Text" xml:space="preserve">
+    <value>     Arrive Notifier</value>
+  </data>
+  <data name="buttonOverViewList.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonBasketingList.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonOptions.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonTraining.Text" xml:space="preserve">
+    <value>     Training List</value>
+  </data>
+  <data name="buttonTraining.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAXAAAACw==</value>
+  </data>
+  <data name="buttonSendToBC.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAAawEAAAs=</value>
+  </data>
+  <data name="buttonAbout.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonOverViewList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOverViewList.Name" xml:space="preserve">
+    <value>buttonOverViewList</value>
+  </data>
+  <data name="buttonMonitor.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonBetMoney.Text" xml:space="preserve">
+    <value>     Bet Money</value>
+  </data>
+  <data name="buttonBetMoney.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAxAAAACw==</value>
+  </data>
+  <data name="buttonBetMoney.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAABEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonReadOut.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonMonitor.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonBasketingList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonBasketingList.Name" xml:space="preserve">
+    <value>buttonBasketingList</value>
+  </data>
+  <data name="buttonName.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonViewData.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonMonitor.Text" xml:space="preserve">
+    <value>     Monitor</value>
+  </data>
+  <data name="buttonMonitor.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAxAAAACw==</value>
+  </data>
+  <data name="buttonMonitor.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAABEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonArriveNotifier.Name" xml:space="preserve">
+    <value>buttonArriveNotifier</value>
+  </data>
+  <data name="&gt;&gt;buttonArriveNotifier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACgHwAAAk1TRnQBSQFMAgEBCAEAAbgBAAG8AQABEAEAARABAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABMAMAAQEBAAEYBgABJP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/ADYAAeUB2gHQAdQBvgGrAfsB+QH4TgAD5gOyA5IDjQObA8cD+SQAAUABgAH/AUABgAH/JwAB7AHkAd0BvgF+AUMBrQFzAUQB+QH2AfQPAAHnAeEB3QF/AWYBUgF8AWIBTgF5AV8BSwF2AVwBSAFyAVgBRAFvAVUBQQFrAVEBPQFoAU4BOgFlAUsBNwFjAUkBNQFjAUkBNQHJAcABuRIAA/wCkQGfAiwBbAIFAWMCAAFlAgABYAIAAU8CFgE9AmIBYwPUDAABgAFoAWABgAFgAVABcAFYAUABcAFYAUABcAFQAUABcAFQAUADAAFAAYAB/wFAAYAB/wFAAYAB/yEAAe8B6QHmAccBlgFsAfkBwwGMAagBcQFEEgABnAGEAXQB/QHoAdsBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBtwGiAZMBYwFJATUByQHAAbkMAAP0AmEBkQIAAYQCAAGOAgABjgIAAY8CAAGMAgABiAIAAYECAQFUAjQBPQPCBgABgAFwAWAB0AHAAbAB0AG4AbAB0AGwAaABwAGwAaABwAGoAaABwAGoAaADAAFAAYAB/wFAAYAB/wFAAYAB/wFAAYAB/xUAAegB3wHaAbUBkwF9AaIBbgFCAZ0BXgEqAckBnQFyAfIB0gGsAZwBZAEyAa0BhwFxAfEB7AHpDAABoAGHAXYB/wH7AfkB/wH5AfUB/gH0Ae4B/gHwAeYB/QHoAdwB9wHbAcgB8wHNAbUB7wHCAaUCNQGQAfABuAGVAbcBogGTAXEBWAFFAWMBSQE1AckBwAG5BgAD/QJbAZoCAAGWAgABlwIAAZsCAAGfAgABoAIAAZ0CAAGXAgABjwIAAYgCAAFiAjYBPwPWAwABkAF4AWAB8AHgAtABwAGwAdABuAGwAdACsAHAAbABoAHAAagBoAMAAUABgAH/AUABgAH/AUABgAH/AUABgAH/DwAB/AH7AfoBzQGyAZwBqAFpATMBwgGTAWkB0AGqAYUB4AHDAaEB/AHiAcEB/wHpAcQB2AG3AZYBvgGRAWMBpAFpATQB0QG5AagJAAGkAYsBeg3/AfwB+gH7AfMB7QH1AeMB2AHuAdUBxQE4AZYBSwHpAcEBqAG3AaIBkwF9AWUBUwFrAVIBPgFjAUkBNQYAAo8BuAIBAaMCCAGeApkB1AJoAdACAAGsAgABrgIAAakCSAG4ArcB4wInAaUCAAGMAgEBUgNxAwABkAF4AXAB8AHgAdABwAGIAXABsAFwAVAB0AG4AbABwAGIAXABsAFwAVADAAFAAYAB/wMAAUABgAH/AwABQAGAAf8JAAH9AfwB+wHQAbEBmgG/AZABZgHiAcoBswH6AeEBxwH/AfMB0wHhAbMBjwHJAXIBRAHsAa0BgAH/AegBxAH4AdkBuQHfAcIBogG5AYQBUgHIAa8BnwH9AvwDAAGoAZABfhL/AfkB9QHyAfEB5wHhAeoB2AHNAegB0QHEAeQBxgG0AYkBcQFgAXcBXgFMAWMBSQE1AwAC3QHwAikBrAIAAasCKAGjAt4B0gL+Af8CZAHUAgABswJGAcAC5wHsAv8B9wJeAbcCAAGaAgIBhwEuAS8BRgMAAZABgAFwAfAC4AH/AcgBsAHAAYgBcAHQAcABsAHwAcgBsAHAAYgBcAMAAUABgAH/BgABQAGAAf8MAAHlAdcBzAHQAaABewHmAdoBygH/AewB0QH/Ae4BzwH/AfwB2gGtAXcBVQE8AgABgQEwARMB/AHtAcoB/wHmAcMB/wHjAcEB5gHRAbUBuwGFAVMBzgG2AakDAAGuAZYBhAHQAcABswHLAbsBrwG/Aa4BoQG1AaIBlAGqAZUBhgGfAYoBegGVAX4BbgGLAXMBYgGCAWoBWAF7AWIBUAF0AVsBSAGVAX4BbQGDAWsBWQFuAVQBQAMAApcB5gIHAbECAwG5AgABwgJMAacC5gHZAvwB/wKeAeYB6AHpAfQC/wHxAnUBuQIGAbECAQGrAgIBoAETARQBXQMAAZABiAGAAfAB6ALgAdABwAHQAcgBwAHQAsAB0AHAAbAB0AG4AbAB0AG4AbAGAAFAAYAB/w8AAdMBpAGBAeABzwG8Af8B8QHcAf8B7AHSAf8B5AHKAf8B7wHVAfQB2AG9AbcBiwF3AeABwQGnAf8B6wHOAf8B4gHEAf8B5gHFAf8B5gHJAeMByQGqAagBcAFAAfMB7wHsAboBoAGNAfgB9AHyD/8B/QH8AvsB+AH2AfgB8wHxAfYB7gHqAfMB6QHkAaEBigF7AY8BdwFmAXoBYQFNAwACWQHRAggBuwIHAcgCBQHRAgAByAJTAbYC8gHtBf8B/AJ1AckCAAG+AgEBwwIDAbgCAwGsAhABbwMAAaABiAGAAf8B6AHgAcABkAFwAbABcAFQAeAByALAAZABgAGwAXABUAwAAYABYAFQDAAB2wGrAY0B7QHlAdQB/wH2AeEB/wHpAdMB/wHoAdIB/wHwAdkB/wHyAdcB4AGfAXcB/gHsAdAB/wH4AeAB/wHlAcsB/wHkAckB/wHrAdAB9wHiAcsBvAGKAV4B3AHJAbsB4gHaAdUBuAGiAZIBzAGzAaEBwgGpAZkByQGyAaMBuQGhAZIBqQGRAYEBmwGCAXEBiwFyAWABewFhAU8BdgFcAUkBhQFsAVoBtAGfAZABmwGEAXQBeAFeAUoDAAJLAdMCDAHJAg0B2AILAdwCAAHWATwBPQHOAe4B7wHtBf8B/QJYAdsCAAHKAgMBywIGAcUCBgG4AhIBeQMAAaABkAGAAf8C8AH/AcgBsAHAAYgBcAHgAdABwAHwAcgBsAkAAcABiAFwAdABsAGgAYABaAFQDAAB4AG6AaUB9wHwAeUB/wH1AeMB/wHsAdsB/wHrAdoB/wH9Ae0C/wH+AasBYAE+AcABcAFIAf8B+gHiAf8B9QHgAf8B5gHOAf8B6wHSAf4B7QHbAdABpgGCAd4BxQGwAwAB4AHXAdEBxgGtAZsB2QHKAb0D/wH8AfoB+QH8AfoB+QH4AfMB8QH0AewB5wHsAeAB2QG7AagBmgF6AWABTQGlAY8BfwHFAa0BnQF7AWEBTQMAAnIB5gIUAdgCFwHqAgsB8QJDAdsC5AHqAv0B9QK6AdQC6gHoAv4B/wJjAeUCAwHXAgoBzwIKAcMCIQF/AwABoAGYAZAB/wLwBOAB2AHQAeAC0AkAAdABwAGwAdABwAGwAdABuAGwAYABaAFQDAAB4QG+AasB9gHzAeoB/wH5AewB/wHwAeIB/wH2AekB/wH6AeUC/wH6Ad0ByAG4AYUBGgEAAb8BagFAAfwB7wHcAf8B8gHfAf8B7gHYAf4B9QHlAdIBpwGCAd8BxwGzBgAB9AHwAewBxgGtAZsB/gH9AfwB7AHnAeIB1wHLAcIB1wHLAcIBygG7AbAB0gHCAbcB4QHTAcoBhAFqAVkBfwFlAVQBsQGbAYwBtwGiAZMDAAK8AfcCJgHlAiIB+wI/AekC3AHlAv0B7gJzAcUCAwHXAlEBsALjAdYC/wH+AmEB5QIIAdsCDwHKAlABhgMAAbABoAGQAf8B+AHwAZABgAHQAUABMAGgBAAC/wMAAeAByAHAAZABgAHQAUABMAGgAdABwAGwAYABcAFgBQABgAYAAekBxwG1AfIB8QHrAv8B/AH/AfsB7gL/AfQBugGFAW8BqQFQATEB+AH1AeUBkgFLATABZwIAAeABwQGpAv8B9QH/AfwB7QH/AfsB7wHDAY8BYAHtAeMB3AkAAd8B0QHHAd8B0AHGCf8B/AH6AfkB+AHzAfEB6AHcAdUBygG5Aa0BeQFfAUwBxgG7AbMGAALzAf4CXgHyAjIB/wJSAe0CswHCAncBygIAAeoCAAHsAgAB6AJSAbQCrQGwAk0B4QIYAe0CGAGxArYBugMAAbACoAH/AfgB8ALAAeAEAAL/AwABkAGAAdAB4ALQAsAB4AGQAYAC0ALAAZABcAFgDAAB8wHeAdAB7gHcAdYJ/wGbAWIBVAFqAgAB2AG2AZ0BZgEMAQYBVQIAAe0B3QHJBv8B8AHUAbgBuwGWAXgB/gL9CQAB+gH4AfYBzwG5AakB+wH4AfcB8gHuAesB1wHLAcIB1wHLAcIBygG7AbABxgGzAagB4gHUAcsBhgFuAVwBgQFpAVcJAALXAf0CPgH7AlMB/wJoAe8CVwH5AjgB/wIlAf0CKQH/AjgB/AJCAesCMgH/Ah8B6QJ+AagGAAGwAagBoAH/AfgC/wHgAdADgAMAAf8BwAGQAfABuAGQAgABgAHQAaABgAHQAbABoAIAAYABkAF4AXALAAGAAf0B+QH2Ae0BxgGyAfAB5QHgBv8B8ALtAcMBlAF9Aa8BaAFCAY0BUAFFAdABvAGzB/8B7gHgAb0BjgFlAfUB8QHvDwAB6gHgAdkB2wHKAb8M/wH8AfoB+QHvAeYB4QHIAbcBqwF6AWABTQwAAsIB/AJJAf0CbgH/ApEB/wKTAf8ChAH/AnYB/wJnAf8CUQH/AjEB+wJ8AbQJAAGwAagBoAT/AZgBYAH/AaABYAH/AaABYAIAAYAB/wGgAWAB/wGgAWAB/wGgAWABsAFoAVABwAGoApABgAFwDwAB+wH0Ae8B7gHNAb0B7AHYAcsB+gL4Ev8B8QHRAbcB0QGnAYgB9QHwAewVAAHqAeAB2QHUAb4BrgHUAb4BrgHUAb4BrgHUAb4BrgHUAb4BrgHUAb4BrgHUAb4BrgHTAb0BrQ8AAtwB/gJtAf0CaQH+AocB/wKSAf8CdgH/AlMB/wJRAfMCpgHODAACsAGgA/8B4AF4AUAB8AHYAdAB8AHYAdAB8AHIAbAB4AGwAaACAAGAAeABgAFQAgABgAHQAaACkAGAAXACAAGADwAB/gH7AfoB9gHjAdgB6wHHAbIB4wG4AZ0B5AHBAaUB5wHFAakB6gHJAbEB6gG9AaIB2gGxAZIB5wHXAcsB/gL9RQAC8wH/Ar4B/QKJAfwCfwH+AoAB/AKqAf4C4gH5DwABwAOwAagBoAHwAbgBoAHQAZABcAHQAYgBYAHQAYABUAHQAXABQAHQAWgBMAHAAWABMAHQAYABYAGgAYgBgBIAAZkEZgEzAmYBMwJmATMCZgEzA1UCZgEzAmYBMwGZATMBZkIAAaYBdwFrAaYBdwFrAaYBdwFrAaUBdgFrAaUBdwFqAaQBdgFqAaIBdAFpAaEBcwFoAZ8BcAFmAZ0BbwFlAZoBbAFkAZgBagFjAZgBagFjAZUBZwFhNgADdwbAAswBmQHMApkBzAKZAcwCmQHMApkBpAKgA5YBmQEzAWYBzAEAAswBAAHMOQABqwF8AW0B/wHcAbsC2gHWAdoB2AHTAdwB1AHNAdsBzwHHAdwBzAHBAdwByAG/Ad4BwwG3Ad4BwgG1Ad4BvwGwAd4BvgGuAd4BvgGuAZkBagFjBgABfAF1AXMBTgJLAVQBTwFNAVQBTwFNAVQBTwFNAVYBUQFNAVMBUAFMAVIBTwFLAVIBTwFMAVIBTwFLAVEBTgFLAVQBTgFGDAABmQJmA90JwAHMApkBzAKZAcwCmQHMApkDlgGZATMBZgHMAQABzAFmATMBZgHMAQABzAwAAaEBoAGfAlYBVQORA7YSAAO8A7gGAAGrAXwBbQH/AdwBuwH/AdwBuwH/Ad0BuwH/AdwBuwH/AdwBugH/AdwBuAH/AdsBtgH/AdkBswH/AdgBsQH/AdcBrwH/AdUBqwHeAb4BrgGZAWoBYwYAAdkBzwHIA/8B+wH9Af8B+wH9A/8B9gL/AfYC/wH2Af8B+QHsAf8B8AHhAf8B6gHVAf8B6gHSAVQBTgFGDAADhgH/A8wBmQFmAcwBmQFmAcwCmQHMAmYBzAKZAcwBmQJmATMCZgEzAmYBMwJmATMBZgGZATMBZgGZATMBZgHMAQABzAYAA7sBZwJmARcBEwESAU0BSwFKAaUCpAO+DAADvQFyAnADmgO+AwABsQGBAXEB/wHhAcIB/wHhAcIB0wGkAYMB0wGkAYMB0wGkAYMB0wGkAYMB0wGkAYMB0wGkAYMB0wGkAYMB0wGkAYMB/wHXAbAB3gG+Aa4BnAFtAWUGAAHSAcgBwQP/AcQBrwGiAcQBrwGiAf8B+wH5AcQBrwGiAcQBrwGiAcQBrwGiAcQBrwGiAcQBrwGiAf0B3gHLAVQBTgFGDAADhgPjAfABygGmAcwCmQHwAcoBpgHMApkBzAKZAfABygGmAWYBMwFmAZkBMwKZATMBmQHMATMBmQHMAWYCmQFmApkBMwGZCQACkAGPASABGAEWASsBJgElAXABbwFuA7gJAAO+AqoBqQE4AjcDqgO+AwABtwGHAXQB/wHkAckB/wHkAckB/wHlAcoB/wHjAcgB/wHkAccB/wHiAcYB/wHhAcMB/wHfAb8B/wHeAbwB/wHbAbkB/wHZAbQB3gG/AbABoAFxAWcGAAHSAcgBwQP/AfsB/QH/AfsB/QL/Af4B/AH9AfoB+AH7AfQB7wH7Ae4B5gH6AekB3gH4AeIB0gH/AeIB0AFUAU4BRgwAA4YD4wnMBsADsgFmATMBZgGZATMBmQHMAWYBmQHMAWYCzAFmAswBZgLMAZkCzAFmAZkGAAO7AV4BWgFZASkBJAEhAUABPAE7AagCpwYAA7oBtgK1AU0BSwFJAWQBYgFgA74GAAG8AY0BdwH/AegB0AH/AegB0AHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwH/AdwBuQHeAcIBtQGjAXUBagYAAdMByQHCA/8BxAGvAaIBxAGvAaIC/wH+AcQBrwGiAcQBrwGiAcQBrwGiAcQBrwGiAcQBrwGiAf8B5QHWAVQBTgFGDAADlgH/AewCzAGZAWYBzAGZAWYBzAKZAcwCZgHMApkBzAGZAmYBMwFmAcwBZgLMAZkCzAGZAswBmQLMAZkCzAGZAcwMAAGyArEBQwFBAT4BJQEhAR4BUwJQA7QGuAFkAWIBYAE5AjYBrwKuCQABwwGTAXoB/wHrAdgB/wHrAdgB0wGkAYMS/wHTAaQBgwH/Ad4BvQHeAcMBtwGnAXgBawYAAdEBxwHAA/8B+wH9Af8B+wH9BP8C/gH9Af4B+wH4Af0B9gHyAfwB8AHoAfwB8AHoAf8B6QHcAVQBTgFGDAADlgPxAfABygGmAcwCmQHwAcoBpgHMApkCzAGZAfABygGmAcwBMwGZAcwBZgGZAcwBZgHMAZkBZgGZAcwBZgLMAZkBzAH/ATMB/w8AAa8CrgFDAUEBPwEtASgBJwFbAVoBWQKdAZwBUAFNAUwBMwExATABggGBAYAMAAHIAZgBfgH/Ae4B3gH/Ae4B3gHTAaQBgwP/A5kBAAEwAcwBmQGfAf8BOQFRAYwD/wHTAaQBgwH/AeABwgHcAcgBvwGqAXsBbQYAAdEByAHBA/8B+wH9Af8B+wH9B/8C/gH8AbABrQGsAUEBXAFyAeMB2QHTAf8B7QHjAVQBTgFGDAADmQPxA90G1wbMBsABzAOZATMBZgHMATMCzAFmAZkBzAEzAcwVAAOuAUYBQgFBATEBLgEtATQBMAEvATgBNQE0AUIBQAE/DwABzQGeAYEB/wHyAeUB/wHyAeUB0wGkAYMG/wHMAewB/wHMAewB/wGZAZ8B/wE5AVEBjAHTAaQBgwH/AeMBxgHcAcwBwQGuAX8BbwYAAdEByAHBA/8B4gLpAV4BdQGEAd8B5AHlA/8BwgHKAc4BSgFhAXABLgGpAdYBCwEQARsBXQFcAWABpAGdAZYGAAFyAZUBeAEcAWYBKQGkAqAD8QJmAcwCZgLMAZkBzAFmATMBzAOyApkBzAIzAZkDsgGZAWYBmQHMATMCzAEzAcwbAAGcApsBNwEyATEBPQE6ATkBRAFBAUABtQK0DwAB0wGiAYMB/wH1AewB/wH1AewB0wGkAYMB/wIzAf8CMwHMAewB/wF6AX4B/wFOAV8B/wEjAVIB/wE5AVEBjAH/AeQBygHbAc8BxwGxAYEBcQYAAd8BnQF9AfEBygG3AY8BpAGsAYYB0wHlAUsBYQFwAacBkgGJAUoBYQFwAWEBwQHeAVcBTQFZAR8B0AH/ARUBJwEzARABBwEKAQIBIQEuAU8BVgFlAVkBeAFbARgBjAEyAaQCoAPxA8ACmQHMA9cCmQfMApkBzAPAAZkBZgGZGwADvwOrAVkBVwFWATsBNwE2AToBNwE2AToBOwE5AVsBWQFWA7oMAAHXAacBhgH/AfkB8QH/AfkB8QHTAaQBgwHTAaQBgwHTAaQBgwHTAaQBgwGZAZ8B/wF6AX4B/wFPAV8B/wEjAVIB/wE5AVEBjAHcAdQBzQGzAYQBcQYAAd8BnQF9Af8BxQGkAeUByQG5AY8BpAGsAYMB4QH2AUsBYQFwAXoBzQHiAVIBYAFnAWgB7QH/AUEBPQFQATIBsgHfAR0BmQHIARUBkwHEARQBYgGOAUABZgFRASkBlwE/A7IE/wHsAcwB8AHKAaYB/wHMAZkB/wHMAZkBzAKZAcwCmQLMAZkDwAGZAWYBmRgAA70BiQKIAUQBQgFBAUICPgJ1AXQBqAKnAXUCcgI8AT0BbwFtAWsCtwG2CQAB3AGsAYkB/wH6AfYB/wH6AfYB/wH7AfcB/wH7AfYB/wH5AfMB/wH3Ae4B/wH0AekBmQGfAf8BeQF9Af8BTgFfAf8BIwFTAf8BOQFRAYwBswGEAXEGAAHfAZ0BfQHfAZ0BfQHfAZ0BfQHaAboBqgGPAaQBrAF/AeMB+QFTAYQBlQFoAe0B/wEwAToBTwFpAdsB9gFYAdIB8wFAAcMB7QExAbsB6gERAagB7AFQAZABjAEyAZ4BQQOyA/EB/wGZAWYB/wGZAWYB/wGZAWYB/wGZAWYB/wGZAWYB/wGZAWYBzAJmAcwDmQFmAZkSAAOzA6QBZwFlAWQBPwE8AToBQAE/AT4BbgFwAXEBugK7AwADuwJxAXABQwFBAT8BdQJ0ArkBuAYAAeABrwGLAf8B/QH6Af8B/QH6AdMBpAGDAdMBpAGDAdMBpAGDAdMBpAGDAdMBpAGDAdMBpAGDAZkBnwH/AXoBfgH/AU8BXwH/ASMBUgH/ATkBUQGMEgABtAG4AboBTwFjAXgBaAHtAf8BWAGYAa4BbgHrAf8BcgHhAfkBagHdAfcBVgHPAfIBSwHHAe0BIgG6AfoBXwGiAaYBQQGsAVMDsgPxAcwBmQFmAf8B7AHMAf8CzAHwAcoBpgHMApkBzAGZAWYBmQFmATMBzAOZAWYBmQ8AA74BkAKPAWYCYwE9ATkBNwFFAUEBQAGHAoYDvgkAA7sBnwGeAZ0CTQFOAXICcQYAAeMBsgGNAf8B/QH8Af8B/QH8BP8B/QH7Af8B+wH3Af8B+QHyAf8B9QHsAf8B8gHmAf8B7gHfAZkBnwH/AXoBfgH/AU8BXwH/ASMBUgH/ATkBUQGMDwABrAGxAboBmgHUAeMBUgFkAXYBbgHrAf8BbgHrAf8BbgHrAf8BcgHiAfoBZwHXAfQBVAG9AdwBUQFyAYsBaQGcAYkBhQHMAYUDwAOyAf8CmQHMAZkBZgHMAZkBZgHMAWYBMwHMAWYBMwHMAWYBMwHMAZkBZgOGAZkBZgGZDwADvgGOAo0BRAJBAkcBRgOaA74PAAO9A7EDiwYAAeQBtAGOAeQBtAGOAecBtgGPAeUBtAGNAeEBsAGLAd0BrAGJAdgBqAGHAdMBpAGFAc4BngGBAckBmAF+AcMBkwF6AZkBnwH/AXoBfgH/AQABMAHMAQABMAHMDAADvwGZAaIBrgGNAbABvAGmAasBrwGAAaUBtAGAAZcBowGAAZYBoAF6AY8BmQFzAYUBkwFbAXABgAGeAaYBqwF8AbUBhgFgAbABbQMABrIBpAKgAaQCoAGkAqADmQaWAZkBZgGZEgADwAOpAWgBaQFnAqEBoAO/RQABAwFOAf8BAwFOAf8BAAEwAcwzAAFCAU0BPgcAAT4DAAEoAwABQAMAATADAAEBAQABAQUAAYABARYAA/+BAAH/AR8C/wH4AQ8B/gEcAf4BHwEAAQcB4AEHAYABCAH8AT8BAAEDAcABAwEAAQEB4AEPAQABAQGAAQEBAAEDAYABBwEAAQEBgAEBAQABAwEAAQEBAAEBAQABAQEAAQcBAAEBAQABAQEAAQEBAAEPAwABAQEAAQEBAAEPAwABAQEAAQEBAAEPAgABgAEBAQABAQEAAQ8CAAHAAQEBAAEBAQABCwIAAeABAwEAAQEBAAEPAgAB4AEDAYABAwEAAQ4BAAEBAfABAwHAAQcBAAEPAYABAwH4AQMB4AEPAQABBwHAAQcC/wHwAR8BAAEfAYABPwL/AQABAwL/AQABBwL/AQABAwEAAQ8BAAEDAcMB8wEAAQMBAAEPAQABAQGBAeEBAAEDAQABDwEAAQECwQEAAQMBAAEPAgABwQGDAQABAwEAAQ8BAAEBAeABBwEAAQMBAAEPAQABAQHwAQ8BAAEDAQABDwEAAQMB+AEfAQABAwEAAQwBAAEHAfwBHwEAAQMDAAEfAfABDwEAAQMDAAEfAeABBwEAAQMDAAEfAYABgwEAAQMB8AIAAR8BAQHDAQABAQHwAgABHwEDAeMBAAEBAeABAAGAAT8BBwL/AfEC/xYACw==</value>
+  </data>
+  <data name="buttonBetMoney.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonArriveNotifier.ImageKey" xml:space="preserve">
+    <value>AutoLoad.bmp</value>
+  </data>
+  <data name="buttonViewData.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADRAAAAxQEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonBasketingList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonTraining.ImageKey" xml:space="preserve">
+    <value>Print.bmp</value>
+  </data>
+  <data name="buttonBasketingList.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="buttonPigeonsList.Text" xml:space="preserve">
+    <value>     Pigeons List</value>
+  </data>
+  <data name="buttonPigeonsList.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAXAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainFormPM</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDelete.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADDAAAAdAEAAAs=</value>
+  </data>
+  <data name="buttonSendToBC.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonName.ImageKey" xml:space="preserve">
+    <value>EditInformation.bmp</value>
+  </data>
+  <data name="buttonSendToBC.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonTraining.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="buttonReadOut.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonOverViewList.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonViewData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonMonitor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSendToBC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSendToBC.Name" xml:space="preserve">
+    <value>buttonSendToBC</value>
+  </data>
+  <data name="button1.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonBasketingList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAEAAAAL</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>     Check version Xtreme</value>
+  </data>
+  <data name="button1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKgAAAAXAAAACw==</value>
+  </data>
+  <data name="buttonPigeonsList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonAbout.Text" xml:space="preserve">
+    <value>     About</value>
+  </data>
+  <data name="buttonAbout.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKgAAAAXAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;buttonOverViewList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonMonitor.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="buttonSendToBC.ImageKey" xml:space="preserve">
+    <value>FromBA.bmp</value>
+  </data>
+  <data name="buttonExit.Text" xml:space="preserve">
+    <value>    Exit</value>
+  </data>
+  <data name="buttonExit.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAiAAAACw==</value>
+  </data>
+  <data name="buttonExit.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAABRNaWNyb3NvZnQgU2FucyBTZXJpZgAABEEF/P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAABfv///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgCAAAAAwAAAAs=</value>
+  </data>
+  <data name="buttonOptions.ImageKey" xml:space="preserve">
+    <value>Properties.bmp</value>
+  </data>
+  <data name="buttonOverViewList.Text" xml:space="preserve">
+    <value>     Overview List</value>
+  </data>
+  <data name="buttonOverViewList.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAKcAAAAXAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
+    <value>listView1</value>
+  </data>
+  <data name="buttonPigeonsList.ImageAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonBetMoney.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonOverViewList.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonBasketingList.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAChAQAANwEAAAs=</value>
+  </data>
+  <data name="buttonExit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonAbout.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAB0AQAAvgEAAAs=</value>
+  </data>
+  <data name="buttonAbout.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonExit.ImageKey" xml:space="preserve">
+    <value>CriticalError.bmp</value>
+  </data>
+  <data name="buttonBetMoney.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonTraining.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="buttonViewData.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonArriveNotifier.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonArriveNotifier.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="button1.TextAlign" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB9TeXN0ZW0uRHJhd2luZy5Db250ZW50QWxpZ25tZW50AQAAAAd2YWx1ZV9fAAgCAAAAEAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;buttonArriveNotifier.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+</root>
