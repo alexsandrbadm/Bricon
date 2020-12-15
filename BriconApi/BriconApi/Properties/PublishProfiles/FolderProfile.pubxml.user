@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\ASemeykin\Documents\Git\BriconApi\BriconApi\bin\Release\netcoreapp3.1\publish</_PublishTargetUrl>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAHm6EvDi0uUy2v19lZu1BAQAAAAACAAAAAAADZgAAwAAAABAAAADa36M+EnkiJ7XjwdqINEaNAAAAAASAAACgAAAAEAAAAMRcwC1vSBhc1r3GFY+SX8gYAAAAcWQbn8oJK1Z9FXoM9CNlepmmKeFOWM+WFAAAAJibHjhZxdgL0I/Rpsey524Iia3a</EncryptedPassword>
+  </PropertyGroup>
+</Project>
