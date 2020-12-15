@@ -54,9 +54,32 @@ namespace BriconApi.Repositories
             {
                 Query = SqlQueries.LastFileData
             });
+
+            if (fileData is null)
+            {
+                return new SendPmReadOut
+                {
+                    Data = new SendPmReadOutData
+                    {
+                        ReadOutDataSet = new ReadOutDataSet
+                        {
+                            Fancier = new Fancier(),
+                            Pigeons = new Pigeon[0]
+                        }
+                    }
+                };
+            }
+
             var fancier = FancierByFileId(fileData.Id);
-            var pigeons = PigeonsByFancierId(fancier.Id);
-            fileData.Data = new SendPmReadOutData{ ReadOutDataSet = new ReadOutDataSet { Fancier = fancier, Pigeons = pigeons.ToArray()}};
+            var pigeons = PigeonsByFancierId(fancier.FancierId);
+            fileData.Data = new SendPmReadOutData
+            {
+                ReadOutDataSet = new ReadOutDataSet
+                {
+                    Fancier = fancier, 
+                    Pigeons = pigeons.ToArray()
+                }
+            };
             return fileData;
         }
 

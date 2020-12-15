@@ -35,7 +35,7 @@ namespace BriconApi.Controllers
             var deserializer = new XmlSerializer(typeof(SendPmReadOut));
             var report = (SendPmReadOut)deserializer.Deserialize(new MemoryStream(Encoding.Default.GetBytes(soapBody.InnerXml)));
             _sqlRepository.AddReport(report);
-            var fileData = LastFileData();
+            //var fileData = LastFileData();
             return "ok";
         }
 

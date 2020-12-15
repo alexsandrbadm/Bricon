@@ -15,6 +15,7 @@
         public const string FancierByFileId = @"
             select
               fan.Id
+			, fan.FancierId
             , fan.License
             , fan.Name
             , fan.Address

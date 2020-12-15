@@ -6,6 +6,7 @@ namespace BriconApi.Model
     {
         [XmlElement("ID")]
         public int Id { get; set; }
+        public int FancierId { get; set; }
 
         public string License { get; set; }
 
